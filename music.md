@@ -12,7 +12,7 @@ I started playing the piano at a young age, but I almost completely gave it up w
 
 ### Pipe Organ
 
-I am lucky to have been introduced to the organ by Prof. Annette Richards and Prof. David Yearsley at Cornell University. There, I began my organ career on the [Anabel Taylor organ](https://historicalkeyboards.as.cornell.edu/baroque-organ) under the instruction of Prof. Richards and I gave my first recital there with several other students. After coming to Harvard, I study with Prof. Peter Sykes. I am heavily involved with organs at Harvard and the Harvard Organ Society. I'm also the recital coordinator for the Busch Midday Recital Series and I have been lucky to perform my [first personal recital](https://www.youtube.com/watch?v=HsLWIlLmx2E&ab_channel=JunkaiDong) in [Busch Hall](http://mypipeorganhobby.blogspot.com/2008/12/organ-harvard-u-edward-power-biggs.html).
+I am lucky to have been introduced to the organ by Prof. Annette Richards and Prof. David Yearsley at Cornell University. There, I began my organ career on the [Anabel Taylor organ](https://historicalkeyboards.as.cornell.edu/baroque-organ) under the instruction of Prof. Richards and I gave my first recital there with several other students. After coming to Harvard, I study with Prof. Peter Sykes. I am heavily involved with organs at Harvard and the Harvard Organ Society. I'm also the recital coordinator for the [Busch Midday Recital Series](https://www.facebook.com/harvardorgansociety/) and I have been lucky to perform my [first personal recital](https://www.youtube.com/watch?v=HsLWIlLmx2E&ab_channel=JunkaiDong) in [Busch Hall](http://mypipeorganhobby.blogspot.com/2008/12/organ-harvard-u-edward-power-biggs.html).
 
 ### Guqin (古琴)
 
