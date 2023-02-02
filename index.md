@@ -11,7 +11,7 @@
     <a href="http://arxiv.org/a/dong_j_3">arXiv</a>|<a href="https://scholar.google.com/citations?user&#61;pgN4BLIAAAAJ&amp;hl&#61;en">Google Scholar</a>|<a href="/assets/cv_new.pdf">CV</a>
     </p>
     <p>
-    email: junkaidong-at-g.harvard-dot-edu
+    email: junkaidong-at-g.harvard-dot-edu 
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
