@@ -220,7 +220,10 @@ SIDE BAR
 
 .menu-list-child-list {
   padding-left: 0.75rem;
+  display: block;
   list-style: none;
+  /* height: 30px;
+  width: 120px; */
 }
 
 .menu-list-child-list .menu-list-link {
@@ -229,6 +232,7 @@ SIDE BAR
 
 .menu-list-child-list .menu-list-item {
   position: relative;
+  font-size: 0.8rem !important;
 }
 
 .menu-list-child-list .menu-list-item::before {
@@ -249,7 +253,7 @@ SIDE BAR
 }
 
 .menu-list-item .menu-list-child-list {
-  display: none;
+  display: block;
 }
 
 .menu-list-item.active .menu-list-child-list {
@@ -310,6 +314,7 @@ input[type=checkbox]:checked ~ #side-menu { display: block; }
 @media (min-width: 31.25rem) {
   .side-bar .header .title {
     font-size: 26px !important;
+    text-align: center;
   }
 
   .menu-list-item {
