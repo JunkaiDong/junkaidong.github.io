@@ -1,6 +1,6 @@
 @def title = "Percolation" 
 
-# Percolation in the Erdős–Rényi model, and beyond
+## Percolation in the Erdős–Rényi model, and beyond
 
 This set of notes is created to procrastinate the production scientific results and to relive the excitement I felt during PHYS 7653, advanced statistical mechanics, taught by Prof. Veit Elser in Fall 2019.
 
@@ -51,7 +51,7 @@ Note that the Lambert $W$ function is defined as the inverse of the function $de
 
 \figenv{invW}{/assets/physics/percolation/invW.png}{width:500px}
 
-However, the inverse is well defined: the equation $de^{-d}=0.25$ has two solutions, $d_1=0.36$ and $d_2=2.15$. Which branch are we picking? Does $W(0.25)$ equal to $0.36$ or $2.15$? We define $\tilde{d}(d)$ to be the other solution of $W(\tilde{d})=d$.
+However, the inverse is *not* well defined: the equation $de^{-d}=0.25$ has two solutions, $d_1=0.36$ and $d_2=2.15$. Which branch are we picking? Does $W(0.25)$ equal to $0.36$ or $2.15$? We define $\tilde{d}(d)$ to be the other solution of $\tilde{d}e^{-\tilde{d}}=de^{-d}$.
 
 To make sure that $W(0)=0$, we will pick the branch related to $d_1$; that is, the branch with smaller $d$ values. Now $W(x)$ is only defined on $[0,1/e]$ whose values run from $0$ to $1$. Hence, the function $W(d e^{-d})$ has the following definition:
 $$W(de^{-d})=\left\{ \begin{aligned}&d,\quad d\leq 1\\&\tilde{d}(d),\quad d\geq 1\end{aligned}\right.$$
