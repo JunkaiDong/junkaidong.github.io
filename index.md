@@ -67,11 +67,15 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks and Posters
 
+@@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Talk, APS March Meeting 2023.
+
+@@
+
 @@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Poster, National High Magnetic Field Laboratory Theory Winter School, Jan 2023.
 
 @@
 
-@@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Invited Talk, Quantum Matter in Mathematics and Physics, Center of Mathematical Sciences and Applications, Harvard University, MA, Dec 2022. 
+@@pubs [*Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*](https://www.youtube.com/watch?v=RfUKlzKs70o), Invited Talk, Quantum Matter in Mathematics and Physics, Center of Mathematical Sciences and Applications, Harvard University, MA, Dec 2022. 
 
 @@
 

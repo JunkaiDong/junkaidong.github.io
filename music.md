@@ -2,7 +2,7 @@
 
 ## Music
 
-I play three kinds of instruments: piano, pipe organ, and [Guqin (古琴)](https://en.wikipedia.org/wiki/Guqin). I have recorded videos of myself playing and I find them rather amusing: they can be found on my [bilibili](https://space.bilibili.com/441831401) account.
+I play three kinds of instruments: piano, pipe organ, and [Guqin (古琴)](https://en.wikipedia.org/wiki/Guqin). I have recorded videos of myself playing and I find them rather amusing: they can be found on my [bilibili](https://space.bilibili.com/441831401) account. 
 
 \toc
 
@@ -16,4 +16,4 @@ I am lucky to have been introduced to the organ by Prof. Annette Richards and Pr
 
 ### Guqin (古琴)
 
-Guqin is a plucked seven-string instrument. I started learning Guqin from Mr. Rong Li when I was thirteen. As its scores only contain fingerings without a lot of phrasing or rhythmic interpretations, players are required to use their own judgements. I have done some research and did my best to interpret two pieces, [潇湘水云](https://www.bilibili.com/video/BV1Lo4y1d7e1) and [短清](https://www.bilibili.com/video/BV1XS4y1j7xy).
+Guqin is a plucked seven-string instrument. I started learning Guqin from Mr. Rong Li when I was thirteen. As its scores only contain fingerings without a lot of phrasing or rhythmic interpretations, players are required to use their own judgements. I have done some research and did my best to interpret two pieces, [潇湘水云](https://www.bilibili.com/video/BV1Lo4y1d7e1) and [短清](https://www.bilibili.com/video/BV1XS4y1j7xy). I have recently been invited to give a lecture on Guqin tablature at the New England Conservatory; the slides can be found [here](/assets/Guqin_Tablature_submit.pdf).

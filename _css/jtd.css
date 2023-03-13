@@ -180,6 +180,7 @@ SIDE BAR
   display: flex;
   height: 100%;
   align-items: center;
+  text-align: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #2b2627;
@@ -232,7 +233,7 @@ SIDE BAR
 
 .menu-list-child-list .menu-list-item {
   position: relative;
-  font-size: 0.8rem !important;
+  font-size: 0.9rem !important;
 }
 
 .menu-list-child-list .menu-list-item::before {
@@ -653,6 +654,9 @@ franklin-toc {
   margin: 0.6rem 0;
 }
 
+.franklin-toc ol > li > ol {list-style-type: lower-roman; line-height: 0.8em; font-size: 90%;}
+.franklin-toc ol > li > ol > li > ol {list-style-type: disc; line-height: 0.6em; font-size: 80%;}
+
 /* page-foot*/
 
 .page-foot {
@@ -675,3 +679,5 @@ franklin-toc {
     padding: 0;
     width: 200px;
 } */
+
+ 
