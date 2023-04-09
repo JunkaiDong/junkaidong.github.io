@@ -76,5 +76,10 @@ We hence see the duality: at either $d$ or $\tilde{d}$, the system exhibits the 
 I would like to sketch how BEC becomes a graph model. Consider the partition function of $N$ bosons: 
 $${\mathcal Z}=\textrm{Tr}e^{-\beta H}\sim\sum_{p\in S_N}\int\prod_{i=1}^N d^3r_i\braket{r_1\dots r_N|e^{-\beta H}|r_{p(1)}\dots r_{p(N)}}.$$
 
-Forgetting all the macroscopic details, we can try to study the structure of the permutation $p$. Which kinds of permutations dominate the sum? It is not unimaginable that when BEC condensation happens, the sum is dominated by permutations containing a cycle of length order $n$ - this is called cycle percolation, and it has been studied intensively by [this paper](https://doi.org/10.1088/0305-4470/26/18/031) and [this paper](https://arxiv.org/abs/cond-mat/0204430).
+Forgetting all the macroscopic details, we can try to study the structure of the permutation $p$. Which kinds of permutations dominate the sum? It is not unimaginable that when BEC condensation happens, the sum is dominated by permutations containing a cycle of length order $n$ - this is called cycle percolation, and it has been studied intensively by Refs.[[1](https://doi.org/10.1088/0305-4470/26/18/031),[2](https://arxiv.org/abs/cond-mat/0204430)].
+
+### References
+[1] A. Suto, [Percolation transition in the Bose gas](https://doi.org/10.1088/0305-4470/26/18/031)(1993).
+
+[2] A. Suto, [Percolation transition in the Bose gas II](https://arxiv.org/abs/cond-mat/0204430)(2002).
 
