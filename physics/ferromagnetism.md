@@ -1,6 +1,6 @@
 @def title = "Ferromagnetism" 
 
-## Ferromagnetism: Thouless, Nagaoka, Tasaki and Mielke
+## Ferromagnetism: Thouless, Nagaoka and Tasaki
 
 This note originates from discussion with Patrick Ledwith, Margarita Davydova, Rahul Sahay, Saranesh Prembabu and Jiaqi Cai.
 
