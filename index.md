@@ -35,9 +35,9 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2211.00658)
 @@
 
-@@pubs **J. Dong**, P. J. Ledwith, E. Khalaf, J. Y. Lee, and A. Vishwanath, Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers, arXiv:2210.13477. 
+@@pubs **J. Dong**, P. J. Ledwith, E. Khalaf, J. Y. Lee, and A. Vishwanath, Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers, *Phys. Rev. Research* 5, 023166 (2023).
 
-[arXiv](https://arxiv.org/abs/2210.13477)
+[DOI](https://doi.org/10.1103/PhysRevResearch.5.023166) | [arXiv](https://arxiv.org/abs/2210.13477)
 @@
 
 @@pubs **J. Dong**, J. Wang, and L. Fu, Dirac Electron under Periodic Magnetic Field: Platform for Fractional Chern Insulator and Generalized Wigner Crystal, arXiv:2208.10516. 
