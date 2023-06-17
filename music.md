@@ -2,7 +2,7 @@
 
 ## Music
 
-I play three kinds of instruments: piano, pipe organ, and [Guqin (古琴)](https://en.wikipedia.org/wiki/Guqin). I have recorded videos of myself playing and I find them rather amusing: they can be found on my [bilibili](https://space.bilibili.com/441831401) account. 
+I play three kinds of instruments: piano, pipe organ, and [Guqin (古琴)](https://en.wikipedia.org/wiki/Guqin). I have recorded videos of myself playing: they can be found on my [bilibili](https://space.bilibili.com/441831401) account. 
 
 \toc
 
