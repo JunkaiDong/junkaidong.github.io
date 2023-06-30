@@ -72,6 +72,10 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks and Posters
 
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$*, Invited Talk, Thouless Institute for Quantum Matter Seminar, University of Washington Seattle, June 2023. [Video](https://youtu.be/_tiNgVlEjYc)
+
+@@
+
 @@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Poster, Spring 2023 meeting of the Simons Collaboration on Ultra-Quantum Matter, CU Boulder, CO, May 2023.
 
 @@
