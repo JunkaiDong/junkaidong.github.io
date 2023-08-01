@@ -9,6 +9,6 @@ Previous roommate. Great engineer and photographer. The current photo used is ta
 Previous roommate. Pianist, violinist and physicist. Please check out his crazy senior recital [here](https://www.bilibili.com/video/BV1Cv411j7sK/).
 
 [Rahul Sahay](https://www.ocf.berkeley.edu/~rsahay/)
-A fantastic physicist of the same year also in the Vishwath group.  
+A fantastic physicist of the same year also in the Vishwanath group.  
 
 

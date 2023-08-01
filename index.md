@@ -52,7 +52,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@pubs **J. Dong**, T. Hartman, and Y. Jiang, Averaging over Moduli in Deformed WZW Models, *J. High Energ. Phys.* 2021, 185 (2021). 
 
-[DOI](https://doi.org/10.1007/JHEP09(2021)185) | [arXiv](https://arxiv.org/abs/2105.12594)
+[DOI](https://doi.org/10.1007/JHEP09(2021)185) | [arXiv](https://arxiv.org/abs/2105.12594) | [Undergraduate Thesis](assets/JDthesis_Cornell.pdf)
 @@
 
 @@pubs **J. Dong**, V. Juricic, and B. Roy, Topolectric Circuits: Theory and Construction, *Phys. Rev. Research* 3, 023056 (2021). 
