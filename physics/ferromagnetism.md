@@ -89,19 +89,19 @@ More analytic results in similar non-bipartite lattices such as the Kagome latti
 
 ### References
 
-[1] Y. Nagaoka, [Ferromagnetism in a Narrow, Almost Half-Filled s-Band](https://journals.aps.org/pr/abstract/10.1103/PhysRev.147.392)(1966).
+[1] Y. Nagaoka, [Ferromagnetism in a Narrow, Almost Half-Filled s-Band](https://journals.aps.org/pr/abstract/10.1103/PhysRev.147.392) (1966).
 
-[2] H. Tasaki, [Extension of Nagaoka’s theorem on the large-U Hubbard model](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.40.9192)(1989).
+[2] H. Tasaki, [Extension of Nagaoka’s theorem on the large-U Hubbard model](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.40.9192) (1989).
 
-[3] H. Tasaki, [The Hubbard Model: Introduction and Selected Rigorous Results](https://arxiv.org/abs/cond-mat/9512169)(1995).
+[3] H. Tasaki, [The Hubbard Model: Introduction and Selected Rigorous Results](https://arxiv.org/abs/cond-mat/9512169) (1995).
 
-[4] D. J. Thouless, [Exchange in solid 3He and the Heisenberg Hamiltonian](https://doi.org/10.1088/0370-1328/86/5/301)(1965).
+[4] D. J. Thouless, [Exchange in solid 3He and the Heisenberg Hamiltonian](https://doi.org/10.1088/0370-1328/86/5/301) (1965).
 
-[5] H. Tasaki, [From Nagaoka's ferromagnetism to flat-band ferromagnetism and beyond](https://arxiv.org/abs/cond-mat/9712219)(1997).
+[5] H. Tasaki, [From Nagaoka's ferromagnetism to flat-band ferromagnetism and beyond](https://arxiv.org/abs/cond-mat/9712219) (1997).
 
-[6] P. W. Anderson, F. D. M. Haldane, [The Symmetries of Fermion Fluids at Low Dimensions](https://arxiv.org/pdf/cond-mat/0009309.pdf)(2000).
+[6] P. W. Anderson, F. D. M. Haldane, [The Symmetries of Fermion Fluids at Low Dimensions](https://arxiv.org/pdf/cond-mat/0009309.pdf) (2000).
 
-[7] A. Mielke, [Exact ground states for the Hubbard model on the Kagome lattice](https://doi.org/10.1088/0305-4470/25/16/011)(1992).
+[7] A. Mielke, [Exact ground states for the Hubbard model on the Kagome lattice](https://doi.org/10.1088/0305-4470/25/16/011) (1992).
 
-[8] A. Mielke, H. Tasaki. [Ferromagnetism in the Hubbard model](https://doi.org/10.1007/BF02108079)(1993).
+[8] A. Mielke, H. Tasaki. [Ferromagnetism in the Hubbard model](https://doi.org/10.1007/BF02108079) (1993).
 

@@ -9,3 +9,5 @@ Here I will store a bit of physics that can be related or unrelated to what I'm 
 [Ferromagnetism: Thouless, Nagaoka and Tasaki](/physics/ferromagnetism)
 
 [Kramers-Wannier Duality](/physics/KW)
+
+[Orthogonality Catastrophe: More Truly is Different](/physics/orthogonalitycatastrophe)

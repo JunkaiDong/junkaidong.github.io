@@ -79,7 +79,7 @@ $${\mathcal Z}=\textrm{Tr}e^{-\beta H}\sim\sum_{p\in S_N}\int\prod_{i=1}^N d^3r_
 Forgetting all the macroscopic details, we can try to study the structure of the permutation $p$. Which kinds of permutations dominate the sum? It is not unimaginable that when BEC condensation happens, the sum is dominated by permutations containing a cycle of length order $n$ - this is called cycle percolation, and it has been studied intensively by Refs.[[1](https://doi.org/10.1088/0305-4470/26/18/031),[2](https://arxiv.org/abs/cond-mat/0204430)].
 
 ### References
-[1] A. Suto, [Percolation transition in the Bose gas](https://doi.org/10.1088/0305-4470/26/18/031)(1993).
+[1] A. Suto, [Percolation transition in the Bose gas](https://doi.org/10.1088/0305-4470/26/18/031) (1993).
 
-[2] A. Suto, [Percolation transition in the Bose gas II](https://arxiv.org/abs/cond-mat/0204430)(2002).
+[2] A. Suto, [Percolation transition in the Bose gas II](https://arxiv.org/abs/cond-mat/0204430) (2002).
 
