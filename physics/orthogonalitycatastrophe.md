@@ -68,6 +68,20 @@ Lessons learned:
 
 3. Adiabaticity matters. One can imagine turning on the scattering potential super slowly, which is exactly what Kohn and Majumdar did - and although one needs to be careful about what one means by "slowly" in a gapless system, it is not totally crazy that the Fermi surface is still regular.
 
+Alternative derivation that is less model dependent. Consider 
+
+$$\log S = -\frac{1}{2}\sum_{n\l n_F,m>n_F}|A_{mn}|^2.$$
+
+Consider a (potentially weak) potential $V(\v{r})$. Do a first order perturbation:
+
+$$A_{mn}=\frac{\braket{m|V|n}}{E_n-E_m}.$$
+
+Now let's say $\braket{m|V|n}$ can be approximated by a constant $V$ ($s$-wave scattering?). Then, we can do the integral:
+
+$$\log S = -\frac{V^2}{2}\sum_{n\l n_F,m>n_F}\frac{1}{(E_m-E_n)^2}=-\frac{V^2}{2}\int_0^{E_F}d\omega\int_{E_F}^\infty d\omega' \frac{\rho(\omega)\rho(\omega')}{(\omega-\omega')^2}.$$
+
+we again approximate the density of states $\rho(\omega)$ is more or less a constant $\rho_0$. Now perform an integration and take a cutoff that is a power in $N$. This means that $\log S\propto (V\rho)^2\log N$.
+
 ### Bosonization from Schotte and Schotte
 
 After brewing for a year after the groundbreaking work by Anderson, a classic trilogy emerged from the writings of Nozieres and de Dominicis and friends [[2](https://doi.org/10.1103/PhysRev.178.1072),[3](https://doi.org/10.1103/PhysRev.178.1084),[4](https://doi.org/10.1103/PhysRev.178.1097)]. They studied implications of the orthogonality catastrophe in the context of X-ray absorption. Instead of going through their monolithic calculations, I choose the easier path of Klaus-Dieter Schotte and Ursula Schotte [[5](https://doi.org/10.1103/PhysRev.182.479)] -- they were a couple, by the way -- and apply the Tomonaga-Luttinger(-Lieb-Mattis, but that's another story) liquid formalism. We will try to keep our discussion as broad as possible, to which we owe our knowledge to [[6](https://link.springer.com/book/10.1007/978-1-4757-5714-9)], sections 3.6 and 9.3.
