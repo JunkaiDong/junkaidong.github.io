@@ -72,6 +72,10 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks and Posters
 
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$*, Invited Talk, Special AEP Seminar, Cornell University, August 2023.
+
+@@
+
 @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$*, Poster, Princeton Summer School on Condensed Matter Physics 2023, Princeton University, July 2023.
 
 @@
