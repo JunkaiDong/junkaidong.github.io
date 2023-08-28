@@ -8,13 +8,13 @@ This note originates from discussion with Patrick Ledwith, Margarita Davydova, R
 
 ### Nagaoka Ferromagnetism
 
-The statement of Nagaoka ferromagnetism [[1](https://journals.aps.org/pr/abstract/10.1103/PhysRev.147.392)] is the following. Consider the Hubbard model:
+The statement of Nagaoka ferromagnetism[^1] is the following. Consider the Hubbard model:
 $$H = -t\sum_{\braket{i,j}\sigma}c^\dagger_{i\sigma}c_{j\sigma}+U\sum_{i}n_{i\uparrow}n_{i\downarrow}$$
 We know through the superexchange argument that when $U\gg t$ at half filling one get an antiferromagnetic exchange $J\sim t^2/U$:
 $$H_{eff}=J\sum_{\braket{i,j}}\vec{S}_i\cdot\vec{S}_j.$$
 Although the system is antiferromagnetic at half filling, at fillings slightly less than one half - more precisely, one hole less than half filling - Nagaoka proved that the system, with infinite interaction $U$ and certain conditions on the lattice, exhibit ferromagnetism. We note that in the infinite $U$ limit the antiferromagnetic exchange is exactly zero, so probably this result shouldn't be so surprising.
 
-His treatment is rather complicated, so here we resort to the treatment of Tasaki [[2](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.40.9192)]. Below we state the theorem.
+His treatment is rather complicated, so here we resort to the treatment of Tasaki[^2]. Below we state the theorem.
 
 __Generalized Nagaoka Theorem__ (Tasaki). Consider an $N$-site Hubbard model $$H = -\sum_{i,j,\sigma}t_{ij}c^\dagger_{i\sigma}c_{j\sigma}+U\sum_{i}n_{i\uparrow}n_{i\downarrow}$$ where $U\to\infty$ and $t_{ij}\leq 0$. Then, if the number of electrons $N_e=N-1$ and the lattice satisfies the connectivity condition (defined below), the ground state is ferromagnetic.
 
@@ -45,7 +45,7 @@ Several remarks are in order on the stability of the theorem, as one may find th
 
 3. Doping one hole. Whether the ferromagnetic state will be the ground state when we dope two holes into the system is already debatable. Consider artificially dividing the system into two halves, with one hole sitting in the center of each. By Nagaoka ferromagnetism, each side of the system will be ferromagnetic. However, when we recall that we still have to couple the two systems together on the boundary, it is not unimaginable that the entire system will be a singlet, something like one side completely pointing up and the other side completely pointing down. This does not prevent the observation of ferromagnetism: in general, the splitting between the fully polarized state and this singlet state will be exponentially small in system size, and a small magnetic field will completely polarize the state.
 
-The proof of Nagaoka theorem is quite formal. Below, we shall distill the essence of Nagaoka ferromagnetism through Tasaki's excellent toy model [[3](https://arxiv.org/abs/cond-mat/9512169)], which was already known to Thouless in 1965 [[4](http://dx.doi.org/10.1088/0370-1328/86/5/301)].
+The proof of Nagaoka theorem is quite formal. Below, we shall distill the essence of Nagaoka ferromagnetism through Tasaki's excellent toy model[^3], which was already known to Thouless in 1965[^4].
 
 ### Itinerant Hole Causes Ferromagnetic Exchange
 
@@ -59,7 +59,7 @@ Apart from the usual superexchange antiferromagnetic exchange $J_{S}\sim t^2/U$,
 
 \figenv{ring}{/assets/physics/ferromagnetism/ring.png}{width:400px}
 
-This figure is taken conveniently from Tasaki's review [[5](https://arxiv.org/abs/cond-mat/9712219)]. This virtual process, generally called "ring exchange", will contribute to the exchange interaction $$J_R \sim \frac{t^3}{V^2}$$ with the sign not fixed. Now we fix the sign.
+This figure is taken conveniently from Tasaki's review[^5]. This virtual process, generally called "ring exchange", will contribute to the exchange interaction $$J_R \sim \frac{t^3}{V^2}$$ with the sign not fixed. Now we fix the sign.
 
 From the general Schrieffer Wolff transformation, in a hopping model of fermions or bosons, where the low energy Hilbert space and the high energy Hilbert space has energy difference $\Delta$, the loop exchange of length $N$ will in general contribute an exchange of
 $$J\sim \left(\prod_{i=1}^N (-t_i)\right) \left(-\frac{1}{\Delta}\right)^{N-1}\eta^{N-1-N_h}$$
@@ -83,25 +83,18 @@ Thus, let's consider the normal triangular Hubbard model where $t>0$, both for b
 
 However the same thing isn't true for fermions. If we dope holes to a half filled triangular lattice, the holes feel __positive__ hoppings and the Nagaoka ferromagnetism fails; there is no way to correct it to fully negative hoppings, because the phase a particle feels when it goes through a plaquette is physical. On the other hand, if we slighly dope doublons into the system, they do feel negative hoppings, and thus we get Nagaoka type ferromagnetism at $\nu=1+\epsilon$.
 
-The bosons are particle hole symmetric whereas the fermions are not: in this case, the hopping breaks particle hole symmetry. On a similar but possibly unrelated note, there is a more fundamental particle hole symmetry - particle hole transforming only one species of spin. In that case, the bosons will still be symmetric, whereas the electron interactions will flip sign. It is this symmetry being broken that leads to strongly correlated physics rather than Fermi liquid behavior. [[6](https://arxiv.org/pdf/cond-mat/0009309.pdf)] This result is completely general and does not depend on the lattice geometry.
+The bosons are particle hole symmetric whereas the fermions are not: in this case, the hopping breaks particle hole symmetry. On a similar but possibly unrelated note, there is a more fundamental particle hole symmetry - particle hole transforming only one species of spin. In that case, the bosons will still be symmetric, whereas the electron interactions will flip sign. It is this symmetry being broken that leads to strongly correlated physics rather than Fermi liquid behavior[^6]. This result is completely general and does not depend on the lattice geometry.
 
-More analytic results in similar non-bipartite lattices such as the Kagome lattice is pioneered by Mielke [[7](https://doi.org/10.1088/0305-4470/25/16/011)]; one can basically understand the flat band of Kagome lattice as many copies of the three-site toy model discussed in the previous section. Mielke also constructed some analytically solvable models that exhibit ferromagnetism in 1D, such as the Mielke-Tasaki chain [[8](https://doi.org/10.1007/BF02108079)].
+More analytic results in similar non-bipartite lattices such as the Kagome lattice is pioneered by Mielke[^7]; one can basically understand the flat band of Kagome lattice as many copies of the three-site toy model discussed in the previous section. Mielke also constructed some analytically solvable models that exhibit ferromagnetism in 1D, such as the Mielke-Tasaki chain[^8].
 
 ### References
 
-[1] Y. Nagaoka, [Ferromagnetism in a Narrow, Almost Half-Filled s-Band](https://journals.aps.org/pr/abstract/10.1103/PhysRev.147.392) (1966).
-
-[2] H. Tasaki, [Extension of Nagaoka’s theorem on the large-U Hubbard model](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.40.9192) (1989).
-
-[3] H. Tasaki, [The Hubbard Model: Introduction and Selected Rigorous Results](https://arxiv.org/abs/cond-mat/9512169) (1995).
-
-[4] D. J. Thouless, [Exchange in solid 3He and the Heisenberg Hamiltonian](https://doi.org/10.1088/0370-1328/86/5/301) (1965).
-
-[5] H. Tasaki, [From Nagaoka's ferromagnetism to flat-band ferromagnetism and beyond](https://arxiv.org/abs/cond-mat/9712219) (1997).
-
-[6] P. W. Anderson, F. D. M. Haldane, [The Symmetries of Fermion Fluids at Low Dimensions](https://arxiv.org/pdf/cond-mat/0009309.pdf) (2000).
-
-[7] A. Mielke, [Exact ground states for the Hubbard model on the Kagome lattice](https://doi.org/10.1088/0305-4470/25/16/011) (1992).
-
-[8] A. Mielke, H. Tasaki. [Ferromagnetism in the Hubbard model](https://doi.org/10.1007/BF02108079) (1993).
+[^1]: Y. Nagaoka, Ferromagnetism in a Narrow, Almost Half-Filled s-Band (1966). [DOI](https://journals.aps.org/pr/abstract/10.1103/PhysRev.147.392)
+[^2]: H. Tasaki, Extension of Nagaoka’s theorem on the large-U Hubbard model (1989). [DOI](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.40.9192)
+[^3]: H. Tasaki, The Hubbard Model: Introduction and Selected Rigorous Results (1995). [DOI](https://arxiv.org/abs/cond-mat/9512169)
+[^4]: D. J. Thouless, Exchange in solid 3He and the Heisenberg Hamiltonian (1965). [DOI](https://doi.org/10.1088/0370-1328/86/5/301)
+[^5]: H. Tasaki, From Nagaoka's ferromagnetism to flat-band ferromagnetism and beyond (1997). [arXiv](https://arxiv.org/abs/cond-mat/9712219)
+[^6]: P. W. Anderson, F. D. M. Haldane, The Symmetries of Fermion Fluids at Low Dimensions (2000). [arXiv](https://arxiv.org/pdf/cond-mat/0009309.pdf)
+[^7]: A. Mielke, Exact ground states for the Hubbard model on the Kagome lattice (1992). [DOI]((https://doi.org/10.1088/0305-4470/25/16/011))
+[^8]: A. Mielke, H. Tasaki. Ferromagnetism in the Hubbard model (1993). [DOI](https://doi.org/10.1007/BF02108079)
 

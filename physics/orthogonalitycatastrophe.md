@@ -2,7 +2,7 @@
 
 ## Orthogonality Catastrophe: More Truly is Different
 
-This note originates from discussion with Jiaqi Cai, Ruihua Fan, Pavel Volkov, Jie Wang, and my recent project on $\textrm{MoTe}_2$. We note that the discovery of [AIP's oral history interviews of P. W. Anderson](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/24312-1) made the writing process quite enjoyable.
+This note originates from discussion with Jiaqi Cai, Ruihua Fan, Pavel Volkov, Jie Wang, and my recent project on $\textrm{MoTe}_2$. We note that the discovery of AIP's oral history [interviews](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/24312-1) of P. W. Anderson made the writing process quite enjoyable.
 
 \toc
 
@@ -10,7 +10,7 @@ This note originates from discussion with Jiaqi Cai, Ruihua Fan, Pavel Volkov, J
 
 Kohn and Majumdar confused Anderson with their paper in 1965 saying that if you turn on a scattering potential of arbitrary strength in the Fermi liquid it wouldn't create singularities at the Fermi surface. This was perplexing, because at some point, a bound state will form.
 
-Let us instead think about the problem in the following way, following Anderson's masterpiece in [[1](https://doi.org/10.1103/PhysRevLett.18.1049)]. Let us calculate the overlap of the electronic ground state with no potential turned on and the ground state with the potential turned on: this will serve as a test for the validity of perturbation theory.
+Let us instead think about the problem in the following way, following Anderson's masterpiece in[^1]. Let us calculate the overlap of the electronic ground state with no potential turned on and the ground state with the potential turned on: this will serve as a test for the validity of perturbation theory.
 
 Before we turn on the interactions, the radial eigenstates are 
 
@@ -84,7 +84,7 @@ we again approximate the density of states $\rho(\omega)$ is more or less a cons
 
 ### Bosonization from Schotte and Schotte
 
-After brewing for a year after the groundbreaking work by Anderson, a classic trilogy emerged from the writings of Nozieres and de Dominicis and friends [[2](https://doi.org/10.1103/PhysRev.178.1072),[3](https://doi.org/10.1103/PhysRev.178.1084),[4](https://doi.org/10.1103/PhysRev.178.1097)]. They studied implications of the orthogonality catastrophe in the context of X-ray absorption. Instead of going through their monolithic calculations, I choose the easier path of Klaus-Dieter Schotte and Ursula Schotte [[5](https://doi.org/10.1103/PhysRev.182.479)] -- they were a couple, by the way -- and apply the Tomonaga-Luttinger(-Lieb-Mattis, but that's another story) liquid formalism. We will try to keep our discussion as broad as possible, to which we owe our knowledge to [[6](https://link.springer.com/book/10.1007/978-1-4757-5714-9)], sections 3.6 and 9.3.
+After brewing for a year after the groundbreaking work by Anderson, a classic trilogy emerged from the writings of Nozieres and de Dominicis and friends[^2][^3][^4]. They studied implications of the orthogonality catastrophe in the context of X-ray absorption. Instead of going through their monolithic calculations, I choose the easier path of Klaus-Dieter Schotte and Ursula Schotte[^5] -- they were a couple, by the way -- and apply the Tomonaga-Luttinger(-Lieb-Mattis, but that's another story) liquid formalism. We will try to keep our discussion as broad as possible, to which we owe our knowledge to[^6], sections 3.6 and 9.3.
 
 The statement of the problem is the following. Consider hitting your favorite metal with an X-ray photon. By energy conservation, the most common scenario is that a core electron is hit out of the core.
 
@@ -152,15 +152,15 @@ Its Fourier transform gives the spectral weight. We can guess that its long time
 
 $$G(\omega)\propto (\omega-\omega_c)^{V^2-1}.$$
 
-We note that Joaquin Luttinger himself was involved in related topics as well: he pointed out the Cauchy's determinant in Anderson and Yuval's paper [[7](https://doi.org/10.1103/PhysRevLett.23.89)], which greatly simplifies some of Nozieres and de Dominicis' derivations. Anderson's interview and [his article on Luttinger's biographical memoir](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/luttinger-joaquin.pdf) has some hilarious accounts on this matter.
+We note that Joaquin Luttinger himself was involved in related topics as well: he pointed out the Cauchy's determinant in Anderson and Yuval's paper[^7], which greatly simplifies some of Nozieres and de Dominicis' derivations. Anderson's interview and his [article](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/luttinger-joaquin.pdf) on Luttinger's biographical memoir has some hilarious accounts on this matter.
 
 ### "Fermi liquid" and Alien Particles - Just Not Electrons
 
-The calculation above not only applies to electronic Fermi liquids. We can also have **composite** Fermi liquids occuring at half filled Landau levels [[8](https://doi.org/10.1103/PhysRevB.47.7312)]. Composite fermions are not electrons: they are gauge fluxes attached to physical electrons, and they are neutral. They are also responsible for most of the fractional quantum Hall states we know. 
+The calculation above not only applies to electronic Fermi liquids. We can also have **composite** Fermi liquids occuring at half filled Landau levels[^8]. Composite fermions are not electrons: they are gauge fluxes attached to physical electrons, and they are neutral. They are also responsible for most of the fractional quantum Hall states we know. 
 
 Suppose that these pretty exotic particles indeed forms a Fermi liquid. Now suppose you try to tunnel an electron into this system. Note that the electron is charged, whereas these composite fermions are not. Thus the electron is an alien particle that has its own dynamics and is pretty much decoupled from the active degrees of freedom -- the gapless composite fermions. It only adds a potential term for the composite fermions. This scenario is reminiscent of the scenario above: a core electron is excited, and it only adds a potential term for the electrons.
 
-In a short paper by Bert and friends [[9](https://doi.org/10.1103/PhysRevLett.71.777)] they used exactly the formalism above to calculate the tunneling density of states. They use the fact that that the density-density response function $\chi(\v{q},\omega)$ is dominated by a diffusive mode
+In a short paper by Bert and friends[^9] they used exactly the formalism above to calculate the tunneling density of states. They use the fact that that the density-density response function $\chi(\v{q},\omega)$ is dominated by a diffusive mode
 
 $$
 \chi(\v{q},\omega)=\braket{\rho(\v{q},\omega)\rho(-\v{q},-\omega)}\sim\frac{1}{1-i\omega/\beta q^2}.
@@ -170,23 +170,15 @@ Substituting into the result above, they find that $G(\tau)\sim\sqrt{\tau}$ and 
 
 ### References
 
-[1] [Infrared Catastrophe in Fermi Gases with Local Scattering Potentials](https://doi.org/10.1103/PhysRevLett.18.1049) (1967).
-
-[2] [Singularities in the X-Ray Absorption and Emission of Metals. I. First-Order Parquet Calculation](https://doi.org/10.1103/PhysRev.178.1072) (1969).
-
-[3] [Singularities in the X-Ray Absorption and Emission of Metals. II. Self-Consistent Treatment of Divergences](https://doi.org/10.1103/PhysRev.178.1084) (1969).
-
-[4] [Singularities in the X-Ray Absorption and Emission of Metals. III. One-Body Theory Exact Solution](https://doi.org/10.1103/PhysRev.178.1097) (1969).
-
-[5] [Tomonaga's Model and the Threshold Singularity of X-Ray Spectra of Metals](https://doi.org/10.1103/PhysRev.182.479) (1969).
-
-[6] [Many-Particle Physics](https://link.springer.com/book/10.1007/978-1-4757-5714-9) (2000).
-
-[7] [Exact Results in the Kondo Problem: Equivalence to a Classical One-Dimensional Coulomb Gas](https://doi.org/10.1103/PhysRevLett.23.89) (1969).
-
-[8] [Theory of the half-filled Landau level](https://doi.org/10.1103/PhysRevB.47.7312) (1993).
-
-[9] [Tunneling into a Two-Dimensional Electron System in a Strong Magnetic Field](https://doi.org/10.1103/PhysRevLett.71.777) (1993).
+[^1]: Infrared Catastrophe in Fermi Gases with Local Scattering Potentials (1967). [DOI](https://doi.org/10.1103/PhysRevLett.18.1049)
+[^2]: Singularities in the X-Ray Absorption and Emission of Metals. I. First-Order Parquet Calculation (1969). [DOI](https://doi.org/10.1103/PhysRev.178.1072)
+[^3]: Singularities in the X-Ray Absorption and Emission of Metals. II. Self-Consistent Treatment of Divergences (1969). [DOI](https://doi.org/10.1103/PhysRev.178.1084)
+[^4]: Singularities in the X-Ray Absorption and Emission of Metals. III. One-Body Theory Exact Solution (1969). [DOI](https://doi.org/10.1103/PhysRev.178.1097)
+[^5]: Tomonaga's Model and the Threshold Singularity of X-Ray Spectra of Metals (1969). [DOI](https://doi.org/10.1103/PhysRev.182.479)
+[^6]: Many-Particle Physics (2000). [DOI](https://link.springer.com/book/10.1007/978-1-4757-5714-9)
+[^7]: Exact Results in the Kondo Problem: Equivalence to a Classical One-Dimensional Coulomb Gas (1969). [DOI](https://doi.org/10.1103/PhysRevLett.23.89)
+[^8]: Theory of the half-filled Landau level (1993). [DOI](https://doi.org/10.1103/PhysRevB.47.7312)
+[^9]: Tunneling into a Two-Dimensional Electron System in a Strong Magnetic Field (1993). [DOI](https://doi.org/10.1103/PhysRevLett.71.777)
 
 
 

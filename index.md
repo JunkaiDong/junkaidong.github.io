@@ -25,12 +25,12 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
-@@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$, arXiv:2306.01719.
+@@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$, arXiv:2306.01719. (Accepted by PRL)
 
 [arXiv](https://arxiv.org/abs/2306.01719)
 @@
 
-@@pubs Q. Gao, **J. Dong**, P. J. Ledwith, D. E. Parker, and E. Khalaf, Untwisting Moirè Physics: Almost Ideal Bands and Fractional Chern Insulators in Periodically Strained Monolayer Graphene, arXiv:2211.00658. 
+@@pubs Q. Gao, **J. Dong**, P. J. Ledwith, D. E. Parker, and E. Khalaf, Untwisting Moirè Physics: Almost Ideal Bands and Fractional Chern Insulators in Periodically Strained Monolayer Graphene, arXiv:2211.00658. (Accepted by PRL) 
 
 [arXiv](https://arxiv.org/abs/2211.00658)
 @@
@@ -72,15 +72,15 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks and Posters
 
-@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$*, Invited Talk, Special AEP Seminar, Cornell University, August 2023.
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Invited Talk, Special AEP Seminar, Cornell University, August 2023. [Video](https://youtu.be/IB8j-y0ZUNY)
 
 @@
 
-@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$*, Poster, Princeton Summer School on Condensed Matter Physics 2023, Princeton University, July 2023.
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, Princeton Summer School on Condensed Matter Physics 2023, Princeton University, July 2023.
 
 @@
 
-@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted MoTe$_2$*, Invited Talk, Thouless Institute for Quantum Matter Seminar, University of Washington Seattle, June 2023. [Video](https://youtu.be/_tiNgVlEjYc)
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Invited Talk, Thouless Institute for Quantum Matter Seminar, University of Washington Seattle, June 2023. [Video](https://youtu.be/_tiNgVlEjYc)
 
 @@
 
