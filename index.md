@@ -30,9 +30,9 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2306.01719)
 @@
 
-@@pubs Q. Gao, **J. Dong**, P. J. Ledwith, D. E. Parker, and E. Khalaf, Untwisting Moirè Physics: Almost Ideal Bands and Fractional Chern Insulators in Periodically Strained Monolayer Graphene, arXiv:2211.00658. (Accepted by PRL) 
+@@pubs Q. Gao, **J. Dong**, P. J. Ledwith, D. E. Parker, and E. Khalaf, Untwisting Moirè Physics: Almost Ideal Bands and Fractional Chern Insulators in Periodically Strained Monolayer Graphene, *Phys. Rev. Lett.* 131, 096401 (2023). PRL Cover.
 
-[arXiv](https://arxiv.org/abs/2211.00658)
+[DOI](https://doi.org/10.1103/PhysRevLett.131.096401) | [arXiv](https://arxiv.org/abs/2211.00658)
 @@
 
 @@pubs **J. Dong**, P. J. Ledwith, E. Khalaf, J. Y. Lee, and A. Vishwanath, Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers, *Phys. Rev. Research* 5, 023166 (2023).
