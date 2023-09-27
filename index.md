@@ -25,9 +25,10 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
-@@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$, arXiv:2306.01719. (Accepted by PRL)
+@@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$, *Phys. Rev. Lett.* 131, 136502 (2023). Editor's suggestion.
 
-[arXiv](https://arxiv.org/abs/2306.01719)
+[DOI](https://doi.org/10.1103/PhysRevLett.131.136502) | [arXiv](https://arxiv.org/abs/2306.01719)
+Publicity: [APS Physics Viewpoint](https://physics.aps.org/articles/v16/163)
 @@
 
 @@pubs Q. Gao, **J. Dong**, P. J. Ledwith, D. E. Parker, and E. Khalaf, Untwisting Moirè Physics: Almost Ideal Bands and Fractional Chern Insulators in Periodically Strained Monolayer Graphene, *Phys. Rev. Lett.* 131, 096401 (2023). PRL Cover.
