@@ -70,7 +70,7 @@ $$K(t)=\Tr e^{-\mathcal{M}t}=\sum_{n}e^{-\lambda_n t}$$
 
 which should be generally (more) convergent given that the spectrum $\{\lambda_n\}$ is bounded below. Then, one may perform the Mellin transform to get the zeta function:
 
-$$\zeta(s) = \frac{1}{\Gamma(s)}\int_0^\infty dt \ t^{s-1} K(t).$$
+$$\zeta(s) = \frac{1}{\Gamma(s)}\int_0^\infty dt \ \ t^{s-1} K(t).$$
 
 (We note that the original Riemann $\zeta$ function is analytically continued onto the complex plane using exactly this formula, with $K(t) = \sum e^{-nt}=(e^{t}-1)^{-1}$, and the Epstein $\zeta$ functions with $K(t)$ being some sort of Jacobi $\theta$ functions. Indeed, if one considers the Mellin transform of the $\theta$ function, one may relate $\zeta(s)$ to $\zeta(1-s)$ -- but that's also for another day.)
 
@@ -136,7 +136,7 @@ One side is easy to see: if $u_{\lambda}(\beta)=0$, then it becomes an eigenstat
 
 For the other side, consider the Wronskian $W(\phi_n,u_{\lambda}) = \phi_n'u_{\lambda}-u_{\lambda}'\phi_n$. Now, $W'(\tau) = \phi_n''u_{\lambda}-u_{\lambda}''\phi_n=(\lambda-\lambda_n)\phi_n u_\lambda$. Now we integrate and find out:
 
-$$W(\beta)-W(0) = u_{\lambda}(\beta) = \frac{\lambda-\lambda_n}{\phi_n'(\beta)}\int_0^\beta d\tau \phi_n u_\lambda$$
+$$u_{\lambda}(\beta) = \frac{W(\beta)-W(0)}{{\phi_n'(\beta)}}  = \frac{\lambda-\lambda_n}{\phi_n'(\beta)}\int_0^\beta d\tau \phi_n u_\lambda$$
 
 and thus, if $\lambda=\lambda_n$, $u_{\lambda}(\beta)=0$.
 
@@ -148,7 +148,7 @@ We have now obtained the functional determinant for Dirichlet boundary condition
 
 $$M \left(\begin{array}{c}\phi(0)\\ \phi'(0)\end{array}\right) + N \left(\begin{array}{c}\phi(\beta)\\ \phi'(\beta)\end{array}\right)=0$$
 
-For Dirichlet, $$M = \left(\begin{array}{cc}1 & 0\\ 0 & 0\end{array}\right), N=\left(\begin{array}{cc}1& 0\\ 0 & 0\end{array}\right).$$
+For Dirichlet, $$M = \left(\begin{array}{cc}1 & 0\\ 0 & 0\end{array}\right), N=\left(\begin{array}{cc}0 & 0\\ 1 & 0\end{array}\right).$$
 
 For Neumann, $$M = \left(\begin{array}{cc}0& 0\\ 0 & 1\end{array}\right), N=\left(\begin{array}{cc}0& 1\\ 0 & 0\end{array}\right).$$
 
