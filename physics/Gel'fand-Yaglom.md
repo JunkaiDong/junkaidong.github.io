@@ -136,7 +136,7 @@ One side is easy to see: if $u_{\lambda}(\beta)=0$, then it becomes an eigenstat
 
 For the other side, consider the Wronskian $W(\phi_n,u_{\lambda}) = \phi_n'u_{\lambda}-u_{\lambda}'\phi_n$. Now, $W'(\tau) = \phi_n''u_{\lambda}-u_{\lambda}''\phi_n=(\lambda-\lambda_n)\phi_n u_\lambda$. Now we integrate and find out:
 
-$$u_{\lambda}(\beta) = \frac{W(\beta)-W(0)}{{\phi_n'(\beta)}}  = \frac{\lambda-\lambda_n}{\phi_n'(\beta)}\int_0^\beta d\tau \phi_n u_\lambda$$
+$$u_{\lambda}(\beta) = \frac{W(\beta)-W(0)}{\phi_n'(\beta)} = \frac{\lambda-\lambda_n}{\phi_n'(\beta)}\int_0^\beta d\tau \phi_n u_\lambda$$
 
 and thus, if $\lambda=\lambda_n$, $u_{\lambda}(\beta)=0$.
 
