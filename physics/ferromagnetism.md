@@ -95,6 +95,6 @@ More analytic results in similar non-bipartite lattices such as the Kagome latti
 [^4]: D. J. Thouless, Exchange in solid 3He and the Heisenberg Hamiltonian (1965). [DOI](https://doi.org/10.1088/0370-1328/86/5/301)
 [^5]: H. Tasaki, From Nagaoka's ferromagnetism to flat-band ferromagnetism and beyond (1997). [arXiv](https://arxiv.org/abs/cond-mat/9712219)
 [^6]: P. W. Anderson, F. D. M. Haldane, The Symmetries of Fermion Fluids at Low Dimensions (2000). [arXiv](https://arxiv.org/pdf/cond-mat/0009309.pdf)
-[^7]: A. Mielke, Exact ground states for the Hubbard model on the Kagome lattice (1992). [DOI]((https://doi.org/10.1088/0305-4470/25/16/011))
+[^7]: A. Mielke, Exact ground states for the Hubbard model on the Kagome lattice (1992). [DOI](https://doi.org/10.1088/0305-4470/25/16/011)
 [^8]: A. Mielke, H. Tasaki. Ferromagnetism in the Hubbard model (1993). [DOI](https://doi.org/10.1007/BF02108079)
 

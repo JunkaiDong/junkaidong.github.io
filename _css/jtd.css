@@ -353,7 +353,7 @@ input[type=checkbox]:checked ~ #side-menu { display: block; }
   }
 
   .side-bar .menu {
-    width: 135px;
+    width: 165px;
     padding-right: 2rem;
     padding-left: 2rem;
     padding-top: 1rem;

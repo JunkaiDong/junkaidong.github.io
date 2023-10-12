@@ -33,6 +33,7 @@ Add here global latex commands to use throughout your pages.
 </figure>
 ~~~
 }
+\newcommand{\Tr}{\mathrm{Tr}}
 \newcommand{\chara}{\mathrm{char}}
 \newcommand{\Res}{\mathrm{Res}}
 \newcommand{\Span}{\mathrm{Span}}
