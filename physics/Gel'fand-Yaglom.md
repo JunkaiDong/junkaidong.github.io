@@ -140,7 +140,11 @@ $$u_{\lambda}(\beta) = \frac{W(\beta)-W(0)}{\phi_n'(\beta)} = \frac{\lambda-\lam
 
 and thus, if $\lambda=\lambda_n$, $u_{\lambda}(\beta)=0$.
 
-We have thus proven that $u_{\lambda}(\beta)$ is our magic function $\mathcal{F}(\lambda)$, which is almost $\det(\mathcal{M}-\lambda)$! This equivalence can be most easily understood as a Liouville argument: $u_{\lambda}(\beta)$ has the same zeros as $\mathcal{F}(\lambda)$ and $\det(\mathcal{M}-\lambda)$, and all of them are analytic in $\lambda$, which means that they must be the same up to a (possibly infinite) constant -- which gets cancelled when one calculates the ratio of determinants.
+We have thus proven that $u_{\lambda}(\beta)$ is our magic function:
+
+$$\mathcal{F}(\lambda)=u_{\lambda}(\beta)!$$
+
+From the discussion above, we know that $\mathcal{F}(\lambda)$ is almost $\det(\mathcal{M}-\lambda)$. This equivalence can be most easily understood as a Liouville argument: $u_{\lambda}(\beta)$ has the same zeros as $\mathcal{F}(\lambda)$ and $\det(\mathcal{M}-\lambda)$, and all of them are analytic in $\lambda$, which means that they must be the same up to a (possibly infinite) constant -- which gets cancelled when one calculates the ratio of determinants.
 
 #### More boundary conditions
 
