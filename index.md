@@ -25,6 +25,11 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs **J. Dong**, T. Wang, T. Wang, T. Soejima, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene I: Interaction-Driven Chern Bands and Fractional Quantum Hall States at Zero Magnetic Field.
+
+[arXiv](https://arxiv.org/abs/2311.05568)
+@@
+
 @@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$, *Phys. Rev. Lett.* 131, 136502 (2023). Editor's suggestion.
 
 [DOI](https://doi.org/10.1103/PhysRevLett.131.136502) | [arXiv](https://arxiv.org/abs/2306.01719) | Publicity: [APS Physics Viewpoint](https://physics.aps.org/articles/v16/163)
