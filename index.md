@@ -77,6 +77,10 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks and Posters
 
+@@pubs *Composite Fermions Form and Flow without a Magnetic Field*, Invited Talk, Physical Review Journal Club, American Physical Society, November 2023. [Video](https://www.youtube.com/watch?v=Nt0CQhfvaGc)
+
+@@
+
 @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Invited Talk, Special AEP Seminar, Cornell University, August 2023. [Video](https://youtu.be/IB8j-y0ZUNY)
 
 @@
