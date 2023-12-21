@@ -32,7 +32,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$, *Phys. Rev. Lett.* 131, 136502 (2023). Editor's suggestion.
 
-[DOI](https://doi.org/10.1103/PhysRevLett.131.136502) | [arXiv](https://arxiv.org/abs/2306.01719) | Publicity: [APS Physics Viewpoint](https://physics.aps.org/articles/v16/163)
+[DOI](https://doi.org/10.1103/PhysRevLett.131.136502) | [arXiv](https://arxiv.org/abs/2306.01719) | Publicity: [APS Physics Viewpoint](https://physics.aps.org/articles/v16/163) | [Physical Review Journal Club](https://www.youtube.com/watch?v=Nt0CQhfvaGc)
 @@
 
 @@pubs Q. Gao, **J. Dong**, P. J. Ledwith, D. E. Parker, and E. Khalaf, Untwisting Moirè Physics: Almost Ideal Bands and Fractional Chern Insulators in Periodically Strained Monolayer Graphene, *Phys. Rev. Lett.* 131, 096401 (2023). PRL Cover.
