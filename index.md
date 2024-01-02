@@ -8,7 +8,7 @@
   <div class="container">
     <img class="right" src="/assets/photo-trimmed.png" style="max-width: 30%; padding: 0px 35px 0px 35px">
     <p>
-    <a href="http://arxiv.org/a/dong_j_3">arXiv</a> | <a href="https://scholar.google.com/citations?user&#61;pgN4BLIAAAAJ&amp;hl&#61;en">Google Scholar</a> | <a href="/assets/cv_new.pdf">CV</a>
+    <a href="http://arxiv.org/a/dong_j_3">arXiv</a> | <a href="https://scholar.google.com/citations?user&#61;pgN4BLIAAAAJ&amp;hl&#61;en">Google Scholar</a> | <a href="/assets/cv_JunkaiDong.pdf">CV</a>
     </p>
     <p>
     email: junkaidong-at-g.harvard-dot-edu 
@@ -76,6 +76,12 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 @@
 
 ### Talks and Posters
+
+@@
+
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, National High Magnetic Field Laboratory Theory Winter School, FL, Jan 2024.
+
+@@
 
 @@pubs *Composite Fermions Form and Flow without a Magnetic Field*, Invited Talk, Physical Review Journal Club, American Physical Society, November 2023. [Video](https://www.youtube.com/watch?v=Nt0CQhfvaGc)
 
