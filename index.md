@@ -79,6 +79,18 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@
 
+@@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Poster, Thouless Institute for Quantum Matter Winter Workshop, WA, Jan 2024.
+
+@@
+
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, Thouless Institute for Quantum Matter Winter Workshop, WA, Jan 2024.
+
+@@
+
+@@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Poster, National High Magnetic Field Laboratory Theory Winter School, FL, Jan 2024.
+
+@@
+
 @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, National High Magnetic Field Laboratory Theory Winter School, FL, Jan 2024.
 
 @@
