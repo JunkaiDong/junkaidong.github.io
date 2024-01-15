@@ -77,8 +77,6 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks and Posters
 
-@@
-
 @@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Poster, Thouless Institute for Quantum Matter Winter Workshop, WA, Jan 2024.
 
 @@
