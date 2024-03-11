@@ -15,7 +15,7 @@
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading.</p>
+    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. In Fall 2024, I will visit KITP as a KITP Graduate Fellow. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
@@ -25,7 +25,17 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
-@@pubs **J. Dong**, T. Wang, T. Wang, T. Soejima, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene I: Interaction-Driven Chern Bands and Fractional Quantum Hall States at Zero Magnetic Field.
+@@pubs T. Soejima$^*$, **J. Dong**$^*$, T. Wang, T. Wang, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene II: General Mechanism and a Minimal Model.
+
+[arXiv](https://arxiv.org/abs/2403.05522) 
+@@
+
+@@pubs M. Fujimoto, D. E. Parker, **J. Dong**, E. Khalaf, A. Vishwanath, and P. J. Ledwith, Higher vortexability: zero field realization of higher Landau levels.
+
+[arXiv](https://arxiv.org/abs/2403.00856) 
+@@
+
+@@pubs **J. Dong**$^*$, T. Wang$^*$, T. Wang$^*$, T. Soejima, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene I: Interaction-Driven Chern Bands and Fractional Quantum Hall States at Zero Magnetic Field.
 
 [arXiv](https://arxiv.org/abs/2311.05568) | Publicity: [Condensed Matter Journal Club](https://www.condmatjclub.org/jccm_january_2024_02/)
 @@
@@ -75,9 +85,13 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [DOI](https://doi.org/10.1016/j.scib.2017.08.010) | [arXiv](https://arxiv.org/abs/1610.04296)
 @@
 
-### Talks and Posters
+### Talks
 
-@@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Poster, Thouless Institute for Quantum Matter Winter Workshop, WA, Jan 2024.
+@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Talk, APS March Meeting 2024.
+
+@@
+
+<!-- @@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Poster, Thouless Institute for Quantum Matter Winter Workshop, WA, Jan 2024.
 
 @@
 
@@ -91,7 +105,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, National High Magnetic Field Laboratory Theory Winter School, FL, Jan 2024.
 
-@@
+@@ -->
 
 @@pubs *Composite Fermions Form and Flow without a Magnetic Field*, Invited Talk, Physical Review Journal Club, American Physical Society, November 2023. [Video](https://www.youtube.com/watch?v=Nt0CQhfvaGc)
 
@@ -101,31 +115,31 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@
 
-@@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, Princeton Summer School on Condensed Matter Physics 2023, Princeton University, July 2023.
+<!-- @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Poster, Princeton Summer School on Condensed Matter Physics 2023, Princeton University, July 2023.
 
-@@
+@@ -->
 
 @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Invited Talk, Thouless Institute for Quantum Matter Seminar, University of Washington Seattle, June 2023. [Video](https://youtu.be/_tiNgVlEjYc)
 
 @@
 
-@@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Poster, Spring 2023 meeting of the Simons Collaboration on Ultra-Quantum Matter, CU Boulder, CO, May 2023.
+<!-- @@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Poster, Spring 2023 meeting of the Simons Collaboration on Ultra-Quantum Matter, CU Boulder, CO, May 2023.
 
-@@
+@@ -->
 
 @@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Talk, APS March Meeting 2023.
 
 @@
 
-@@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Poster, National High Magnetic Field Laboratory Theory Winter School, FL, Jan 2023.
+<!-- @@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Poster, National High Magnetic Field Laboratory Theory Winter School, FL, Jan 2023.
 
-@@
+@@ -->
 
 @@pubs *Exact Many-Body Ground States from Decomposition of Ideal Higher Chern Bands: Applications to Chirally Twisted Graphene Multilayers*, Invited Talk, Quantum Matter in Mathematics and Physics, Center of Mathematical Sciences and Applications, Harvard University, MA, Dec 2022. [Video](https://www.youtube.com/watch?v=RfUKlzKs70o)
 
 @@
 
-@@pubs *Exact Topological Flat Bands from Continuum Landau Levels*, Poster, ARO/AFOSR MURI Program
+<!-- @@pubs *Exact Topological Flat Bands from Continuum Landau Levels*, Poster, ARO/AFOSR MURI Program
 Review Meeting, UMass Amherst, MA, Oct 2019. 
 
-@@
+@@ -->
