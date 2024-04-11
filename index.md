@@ -37,7 +37,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@pubs **J. Dong**$^*$, T. Wang$^*$, T. Wang$^*$, T. Soejima, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene I: Interaction-Driven Chern Bands and Fractional Quantum Hall States at Zero Magnetic Field.
 
-[arXiv](https://arxiv.org/abs/2311.05568) | Publicity: [Condensed Matter Journal Club](https://www.condmatjclub.org/jccm_january_2024_02/)
+[arXiv](https://arxiv.org/abs/2311.05568) | Publicity: [Condensed Matter Journal Club](https://www.condmatjclub.org/jccm_january_2024_02/) | [Nature News](https://www.nature.com/articles/d41586-024-00832-z)
 @@
 
 @@pubs **J. Dong**, J. Wang, P. J. Ledwith, A. Vishwanath, and D. E. Parker, Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$, *Phys. Rev. Lett.* 131, 136502 (2023). Editor's suggestion.

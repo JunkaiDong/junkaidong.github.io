@@ -72,7 +72,7 @@ Alternative derivation that is less model dependent. Consider
 
 $$\log S = -\frac{1}{2}\sum_{n\l n_F,m>n_F}|A_{mn}|^2.$$
 
-Consider a (potentially weak) potential $V(\v{r})$. Do a first order perturbation:
+Consider a (potentially weak) potential $V(\vv{r})$. Do a first order perturbation:
 
 $$A_{mn}=\frac{\braket{m|V|n}}{E_n-E_m}.$$
 
@@ -100,7 +100,7 @@ We want to highlight the Fourier transform of this Green's function. $G(\omega)$
 
 Now let's calculate $G(t)$. We will calculate it from a purely Fermi liquid point of view. We assume that the potential Hamiltonian is written as
 
-$$V(t)=\int d\v{r} V(\v{r})n(\v{r},t)=\int d\v{q} V(\v{q})\rho(\v{q},t).$$
+$$V(t)=\int d\vv{r} V(\vv{r})n(\vv{r},t)=\int d\vv{q} V(\vv{q})\rho(\vv{q},t).$$
 
 The time evolution operator can be written as
 
@@ -119,27 +119,27 @@ Arguably, this has flavors of the "effective action" expansion, where the log of
 As usual we will perturbatively expand. The first order contribution $F_1$ will give a constant energy shift, due to Fumi's theorem (see Mahan). Already at second order do we get orthogonality catastrophe:
 
 $$\begin{aligned}
-F_2(t)&=\frac{1}{2}\int d\v{q} \int_0^t dt_1\int_0^t dt_2|V(\v{q})|^2T\braket{\rho(\v{q},t_1)\rho(\v{q},t_2)}\\
-&=\int d\v{q}\int_0^\infty d\omega \int_0^{t_2} dt_1\int_0^t dt_2 |V(\v{q})|^2\braket{\rho(\v{q},\omega)\rho(-\v{q},-\omega)} e^{i\omega(t_1-t_2)}\\
-&=\int d\v{q}\int_0^\infty d\omega |V(\v{q})|^2\braket{\rho(\v{q},\omega)\rho(-\v{q},-\omega)}\frac{1-e^{-i\omega t}-i\omega t}{\omega^2}
+F_2(t)&=\frac{1}{2}\int d\vv{q} \int_0^t dt_1\int_0^t dt_2|V(\vv{q})|^2T\braket{\rho(\vv{q},t_1)\rho(\vv{q},t_2)}\\
+&=\int d\vv{q}\int_0^\infty d\omega \int_0^{t_2} dt_1\int_0^t dt_2 |V(\vv{q})|^2\braket{\rho(\vv{q},\omega)\rho(-\vv{q},-\omega)} e^{i\omega(t_1-t_2)}\\
+&=\int d\vv{q}\int_0^\infty d\omega |V(\vv{q})|^2\braket{\rho(\vv{q},\omega)\rho(-\vv{q},-\omega)}\frac{1-e^{-i\omega t}-i\omega t}{\omega^2}
 \end{aligned}$$
 
 For reasons unknown, the author claimed that only the real part contributes to the term linear in $t$ (a constant energy shift), and only the imaginary part contributes to the interesting correction. Let's see if we can figure it out later...
 
-Now comes the wisdom of the Schotte duo. They figured that they can use bosonization to describe the density operators $\rho(\v{q})$. In the bosonization language one should write
+Now comes the wisdom of the Schotte duo. They figured that they can use bosonization to describe the density operators $\rho(\vv{q})$. In the bosonization language one should write
 
-$$b_{\v{k}}=\frac{1}{\sqrt{k}}\rho(\v{k}),\quad b_{\v{k}}^\dagger=\frac{1}{\sqrt{k}}\rho(-\v{k})$$
+$$b_{\vv{k}}=\frac{1}{\sqrt{k}}\rho(\vv{k}),\quad b_{\vv{k}}^\dagger=\frac{1}{\sqrt{k}}\rho(-\vv{k})$$
 
 and
 
-$$[b_{\v{k}},b_{\v{k}'}^\dagger]=\delta_{\v{k}\v{k}'}.$$
+$$[b_{\vv{k}},b_{\vv{k}'}^\dagger]=\delta_{\vv{k}\vv{k}'}.$$
 
 We have to make sure that the bosonization procedure is actually well defined. We know it's not, in dimensions greater than $1$, which is why so many people are working on it (for example, Umang's thesis [Postmodern Fermi Liquids](https://arxiv.org/abs/2307.02536) is a great review). However, from Anderson's exposition above, we know that the relevant scattering is $s$-wave, so the higher-dimensionality dependence is reduced.
 
-We take contact interaction $V(\v{q})=V$. We may thus evaluate the integral
+We take contact interaction $V(\vv{q})=V$. We may thus evaluate the integral
 
 $$\begin{aligned}
-F_2(t)&=V^2\int d\v{q} \braket{b_{\v{q}}b^\dagger_{\v{q}}}\frac{1-e^{-iq t}}{q}\\
+F_2(t)&=V^2\int d\vv{q} \braket{b_{\vv{q}}b^\dagger_{\vv{q}}}\frac{1-e^{-iq t}}{q}\\
 & \propto V^2\int dq \frac{1-e^{-iq t}}{q}\\
 & \propto -V^2\log(1+it\Lambda)
 \end{aligned}$$
@@ -160,10 +160,10 @@ The calculation above not only applies to electronic Fermi liquids. We can also 
 
 Suppose that these pretty exotic particles indeed forms a Fermi liquid. Now suppose you try to tunnel an electron into this system. Note that the electron is charged, whereas these composite fermions are not. Thus the electron is an alien particle that has its own dynamics and is pretty much decoupled from the active degrees of freedom -- the gapless composite fermions. It only adds a potential term for the composite fermions. This scenario is reminiscent of the scenario above: a core electron is excited, and it only adds a potential term for the electrons.
 
-In a short paper by Bert and friends[^9] they used exactly the formalism above to calculate the tunneling density of states. They use the fact that that the density-density response function $\chi(\v{q},\omega)$ is dominated by a diffusive mode
+In a short paper by Bert and friends[^9] they used exactly the formalism above to calculate the tunneling density of states. They use the fact that that the density-density response function $\chi(\vv{q},\omega)$ is dominated by a diffusive mode
 
 $$
-\chi(\v{q},\omega)=\braket{\rho(\v{q},\omega)\rho(-\v{q},-\omega)}\sim\frac{1}{1-i\omega/\beta q^2}.
+\chi(\vv{q},\omega)=\braket{\rho(\vv{q},\omega)\rho(-\vv{q},-\omega)}\sim\frac{1}{1-i\omega/\beta q^2}.
 $$
 
 Substituting into the result above, they find that $G(\tau)\sim\sqrt{\tau}$ and $G(\omega)\sim e^{-\omega_0/\omega}$.

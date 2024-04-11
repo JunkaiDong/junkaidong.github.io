@@ -13,3 +13,5 @@ Here I will store a bit of physics that can be related or unrelated to what I'm 
 [Orthogonality Catastrophe: More Truly is Different](/physics/orthogonalitycatastrophe)
 
 [Gel'fand-Yaglom Trick: The Only Trick You Need for Functional Determinants?](/physics/Gel'fand-Yaglom)
+
+[Lieb's Lieder](/physics/Lieb)

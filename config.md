@@ -25,7 +25,8 @@ Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
-\newcommand{\braket}[1]{\langle #1 \rangle}
+\newcommand{\braket}[1]{\left\langle #1 \right\rangle}
+<!-- \newtheorem{theorem}{Theorem} -->
 \newcommand{\figenv}[3]{
 ~~~
 <figure style="text-align:center;">
@@ -64,4 +65,4 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\tabref}[1]{Tab.\,\ref{#1}}
 \newcommand{\ov}{\overline}
 \newcommand{\l}{\left.<\right.}
-\newcommand{\v}[1]{\boldsymbol{#1}}%%shortcut to make a vector (overwrites the default command)
+\newcommand{\vv}[1]{\boldsymbol{#1}}%%shortcut to make a vector (overwrites the default command)
