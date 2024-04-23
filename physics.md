@@ -15,3 +15,5 @@ Here I will store a bit of physics that can be related or unrelated to what I'm 
 [Gel'fand-Yaglom Trick: The Only Trick You Need for Functional Determinants?](/physics/Gel'fand-Yaglom)
 
 [Lieb's Lieder](/physics/Lieb)
+
+[Making Sense of Reshetikhin-Turaev Invariant: $U_q(\mathfrak{sl}_2)$, Kauffman, and Jones](/physics/Reshetikhin-Turaev)

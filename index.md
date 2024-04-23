@@ -87,6 +87,11 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 ### Talks
 
+@@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Invited Talk, Quantum Theory Seminar, Cornell University, April 2024. [Video](https://www.youtube.com/watch?v=huH89VB2wao)
+
+@@
+
+
 @@pubs *Composite Fermi Liquid at Zero Magnetic Field in Twisted $\textrm{MoTe}_2$*, Talk, APS March Meeting 2024.
 
 @@
