@@ -17,3 +17,5 @@ Here I will store a bit of physics that can be related or unrelated to what I'm 
 [Lieb's Lieder](/physics/Lieb)
 
 [Making Sense of Reshetikhin-Turaev Invariant: $U_q(\mathfrak{sl}_2)$, Kauffman, and Jones](/physics/Reshetikhin-Turaev)
+
+[No Solid State Triangular Lattice Hubbard Model?](/physics/no_triangular_Hubbard)
