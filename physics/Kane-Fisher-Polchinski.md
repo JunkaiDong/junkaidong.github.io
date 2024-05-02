@@ -22,7 +22,7 @@ in which $G=I/V$ is the conductance. For two terminal we employ the following ge
 
 The two terminal conductance calculation is easy to perform, and we can actually derive the four terminal conductance from the two terminal conductance. We begin the calculation by writing down the edge theory for the bottom edge. The edge theory of such states is a simple chiral Luttinger liquid (note that here I am writing down the Minkowski action!):
 
-$$S = \frac{m}{4\pi}\int dxdt \partial_x\phi(\partial_t+v\partial_x)\phi$$
+$$S = \frac{m}{4\pi}\int dxdt \ \partial_x\phi(\partial_t+v\partial_x)\phi$$
 
 The dictionary between $\phi$ and physical quantities is:
 
@@ -215,7 +215,7 @@ where $c=2v_{12}/\sqrt{3}(v_1+v_2)$. The interactions $v_{12}$ strongly modify b
 Given the effective action $S$, one may compute an effective action by integrating out $\xi$. This means that there will effectively be a term
 
 $$
-S_2 = W\int dx \ dt \ dt' \ O(x,t)O^\dagger(x,t')
+S_2 = W\int dx dt dt' \ O(x,t)O^\dagger(x,t')
 $$
 
 where $O=e^{i(\phi_1+3\phi_2)}$. We can then ask naively what the scaling dimension is for the operator $O O^\dagger$, which amounts to asking for the scaling dimension of $O$. If this term is irrelevant, then perhaps we can throw it away and argue that disorders merely act as an irrelevant perturbation.
@@ -297,7 +297,7 @@ F(z) &= \int_0^\infty\frac{dq}{q}(1-e^{iqz})\\
 \end{aligned}
 $$
 
-Thus, we can finally evaluate the desired correlation function:
+which can be obtained by differentiating and integrating with respect to $z$ (I thank Ophelia Sommer and Patrick Ledwith for pointing this out to me). Thus, we can finally evaluate the desired correlation function:
 
 $$
 \begin{aligned}
