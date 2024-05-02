@@ -2,7 +2,7 @@
 
 ## Taming Edgy Currents by Disorder
 
-This small note is an expanded version of my final writeup for PHYSICS 268AR that I took my first semester. I thank Rahul Sahay for intensive discussions on related experiments.
+This small note is an expanded version of my final writeup for PHYSICS 268AR that I took my first semester. I thank Rahul Sahay for intensive discussions on related experiments and Tomohiro Soejima for proofreading.
 
 \toc
 
@@ -79,7 +79,6 @@ We will ensure convergence by introducing $\omega = \omega+i\epsilon^+$, s.t. $e
 $$
 \begin{aligned}
 D^R(x-x', \omega)&=-\frac{i e^2}{(2\pi)^2m\hbar}\int_{-\infty}^0 dt \ e^{-i(\omega+i\epsilon^+) t}\int dq\  e^{iq((x-x')+vt)}vq\\
-&=-\frac{i e^2}{(2\pi)^2m\hbar}\int dq\frac{e^{iq(x-x')}vq}{\epsilon^+-i\omega+ivq}\\
 &=-\frac{i e^2}{(2\pi)^2m\hbar}\int dq\frac{e^{iq(x-x')}vq}{\epsilon^+-i\omega+ivq}\\
 &=-\frac{i e^2}{(2\pi)^2m\hbar}(2\pi i)\Theta(x-x') \frac{-i\omega}{v} e^{i(\omega+i\epsilon^+)(x-x')/v}\\
 &=-\frac{ie^2}{mh}\frac{\omega}{v}e^{i(\omega+i\epsilon^+)(x-x')/v}\Theta(x-x')
@@ -348,7 +347,7 @@ We will now proceed with the following program. We will massage $S_\sigma$ into 
 Now we note that the action $-\frac{1}{4\pi}\int_{x,t} \ \partial_x\phi_\sigma(-\partial_t+v_\sigma\partial_x)\phi_\sigma$ actually describes the neutral sector of a spin-$1/2$ chiral fermion, with the current algebra given by $J^{\pm}\sim\psi^\dagger \sigma^{\pm}\psi\sim e^{\pm i\sqrt{2}\phi_\sigma}$, and $J_z\sim\psi^\dagger \sigma_z\sim\partial_x\phi_\sigma$. To do this more explicitly, we introduce an additional boson $\chi$ where
 
 $$
-S_{\chi} = -\frac{1}{4\pi}\int_{x,t} \ \partial_x\phi_\chi(-\partial_t+v_\sigma\partial_x)\phi_\chi.
+S_{\chi} = -\frac{1}{4\pi}\int_{x,t} \ \partial_x\chi(-\partial_t+v_\sigma\partial_x)\chi.
 $$
 
 To describe the charge sector of the auxiliary fermions. $\chi$ will not enter any physical observables. Then, we fermionize $S_{\sigma}+S_{\chi}$ to be describing the fermions $\psi$:
@@ -400,6 +399,27 @@ S_{eff} \sim \tilde{v}\int_{x,t,t'} (\partial_x\phi_\rho)^2 (\tilde{\psi}^\dagge
 $$
 
 which shows that the coupling $\tilde{v}$ has dimension $3-2\Delta_{O_v}=-1$. Hence the term is irrelevant and thus the disorder induced fixed point is stable.
+
+#### Stripping of $\chi$
+
+One might worry that the above transformations are not legit, given that an additional degree of freedom, i.e. $\chi$, corresponding to the $U(1)$ charge dynamics of $\psi$, has been added. We will now show that this is not the case.
+
+Let us set $v$ to zero, i.e. the fixed point. We now study the fermion action $S_{\tilde{\psi}}$ by re-bosonizing it into charge $\chi'$ and spin fluctuations $\phi_\sigma'$ by the formula
+
+$$
+\tilde\psi_{\pm}=e^{i(\chi'\pm\phi'_\sigma)/\sqrt{2}}.
+$$
+
+Particularly, for $\psi$ fermions $\partial_x\chi = 2\pi \psi^\dagger\psi$; for $\tilde{\psi}$ fermions $\partial_x\chi' = 2\pi \tilde\psi^\dagger \tilde\psi$. However, under the $SU(2)$ transformation $\psi^\dagger\psi=\tilde\psi^\dagger \tilde\psi$, so morally $\chi=\chi'$.
+
+Thus, after the bosonization the action becomes
+
+$$
+\begin{aligned}
+S_{\chi'} &= S_{\chi} = -\frac{1}{4\pi}\int_{x,t} \ \partial_x\chi(-\partial_t+v_\sigma\partial_x)\chi\\
+S_{\phi_\sigma'} &= \partial_x\phi_\sigma(-\partial_t+v_\sigma\partial_x)\phi_\sigma
+\end{aligned}
+$$
 
 #### Experimental signature
 
