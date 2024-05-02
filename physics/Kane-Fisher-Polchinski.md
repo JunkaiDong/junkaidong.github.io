@@ -48,7 +48,7 @@ We can proceed by solving for the normal modes, i.e. the solution to the equatio
 
 $$\partial_x(\partial_t+v\partial_x)\phi=0.$$
 
-Assuming that $\phi(x,t) = \int \frac{dq}{2\pi }\phi_q e^{i(qx-\omega(q)t)},$ we obtains
+Assuming that $\phi(x,t) = \int \frac{dq}{2\pi }\phi_q e^{i(qx-\omega(q)t)},$ we obtain
 
 $$\omega(q) = vq.$$
 
@@ -411,4 +411,4 @@ Aside from the tunneling experiments, thermal measurements is enough to probe th
 
 [^1]: Randomness at the edge: Theory of quantum Hall transport at filling $\nu=2/3$ (1994). [DOI](https://link.aps.org/doi/10.1103/PhysRevLett.72.4129)
 
-[^2] Observation of ballistic upstream modes at fractional quantum Hall edges of graphene (2022). [DOI](https://doi.org/10.1038/s41467-021-27805-4)
+[^2]: Observation of ballistic upstream modes at fractional quantum Hall edges of graphene (2022). [DOI](https://doi.org/10.1038/s41467-021-27805-4)
