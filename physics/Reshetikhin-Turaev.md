@@ -8,7 +8,7 @@ There has been several pieces of common wisdom that I have collected, but have n
 
 ### Reshetikhin-Turaev: topological invariant of knots
 
-Reshetikhin and Turaev in their seminal paper stated the following: given a ribbon category $\mathcal{C}$, one can produce invariants of knots (or more generally ribbon graphs.) A ribbon category needs the following data:
+Reshetikhin and Turaev in their seminal paper [^1] stated the following: given a ribbon category $\mathcal{C}$, one can produce invariants of knots (or more generally ribbon graphs.) A ribbon category needs the following data:
 
 1. Objects and morphisms that make $\mathcal{C}$ a category.
 
@@ -152,3 +152,5 @@ To compute the Jones polynomial of the unknot, one splits it into a left cap and
 The procedure to produce the Jones polynomials is a bit trickier. For the first diagram on the left of the skein relation one needs to use $q^{-3/2}\beta_{V_2,V_2}=(\theta_{V_2}^{-1}\otimes \textrm{id})\beta_{V_2,V_2}$, and for the second diagram one needs to use $q^{3/2}\beta_{V_2,V_2}^{-1}=(\theta_{V_2}\otimes \textrm{id})\beta_{V_2,V_2}^{-1}$. The reason for this is exactly the "covariance" under the R1 move, but I do not know how to mathematically justify this from the RT perspective. After all, the RT invariant is an invariant of ribbon diagrams, which cares about the twisting of ribbons, rather than knots.
 
 More examples, such as a calculation of the Jones polynomial of the Hopf link, where $J_L(q)=q^{-6}+q^{-4}+q^{-2}+1 = (q+q^{-1})(q^{-1}+q^{-5})$, can also be found in the notebook.
+
+[^1]: Invariants of 3-manifolds via link polynomials and quantum groups (1991). [DOI](https://doi.org/10.1007%2FBF01239527)
