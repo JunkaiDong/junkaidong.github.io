@@ -309,6 +309,8 @@ Thus, we conclude that the scaling dimension of $O$ is $\frac{\Delta_++\Delta_-}
 
 In this case, the scaling dimension for $W$ is thus $3-2\Delta$. When $\Delta$ is less than $3/2$, this term will become strongly relevant.
 
+Note that this effective interaction can only be induced by disorder given that it is nonlocal in time. We also note that $O$ the operator alone carries nonzero momentum and thus cannot be added to the action without translation symmetry breaking. I thank Ruben Verresen for pointing this out to me in the group meeting.
+
 #### The disorder-dominated phase
 
 One might think that the strongly coupled phase is not solvable. This is shown to not be the case. We first define new variables
@@ -400,6 +402,8 @@ $$
 
 which shows that the coupling $\tilde{v}$ has dimension $3-2\Delta_{O_v}=-1$. Hence the term is irrelevant and thus the disorder induced fixed point is stable.
 
+A couple comments are in order, which are kindly pointed out by Patrick Ledwith and Eslam Khalaf. Firstly, although the disorder term is shown to be perturbatively relevant for $\Delta<3/2$, it is unclear where the IR fixed point will be. The above calculation shows that the $\Delta=1$ point is perturbatively stable, but it does not establish that for any $\Delta<3/2$ the theory will flow to $\Delta=1$. Secondly, although a rewriting of $S$ in terms of $\phi_\rho$ and $\phi_\sigma$ is possible in the clean limit, one would find that $v$ is marginal and would not flow. This is why disorder induced correlations are important. Thirdly, a more careful analysis of the random couplings between $\phi_\rho$ and $\tilde\psi$ based on replica tricks can be found in [^2].
+
 #### Stripping of $\chi$
 
 One might worry that the above transformations are not legit, given that an additional degree of freedom, i.e. $\chi$, corresponding to the $U(1)$ charge dynamics of $\psi$, has been added. We will now show that this is not the case.
@@ -425,10 +429,12 @@ $$
 
 To summarize: strong disorder reconstructs the edge structure of the $\nu=2/3$ state. It transforms the $1-1/3$ edge, i.e. a chiral charge $e$ mode and an anti-chiral charge $e/3$ mode, to a $2/3+0$ edge, i.e. a chiral charge $2e/3$ mode and an anti-chiral charge neutral mode.
 
-Aside from the tunneling experiments, thermal measurements is enough to probe the existence of the neutral mode. Although the neutral mode cannot carry electric charge, it still carries thermal energy. Given that the neutral mode will equilibrate when it goes into the source lead, there will be heat noise near the source lead due to the neutral mode. The charged mode will create electric and thermal noise near the drain lead. This has been measured by Ref. [^2].
+Aside from the tunneling experiments, thermal measurements is enough to probe the existence of the neutral mode. Although the neutral mode cannot carry electric charge, it still carries thermal energy. Given that the neutral mode will equilibrate when it goes into the source lead, there will be heat noise near the source lead due to the neutral mode. The charged mode will create electric and thermal noise near the drain lead. This has been measured by Ref. [^3].
 
 ### References
 
 [^1]: Randomness at the edge: Theory of quantum Hall transport at filling $\nu=2/3$ (1994). [DOI](https://link.aps.org/doi/10.1103/PhysRevLett.72.4129)
 
-[^2]: Observation of ballistic upstream modes at fractional quantum Hall edges of graphene (2022). [DOI](https://doi.org/10.1038/s41467-021-27805-4)
+[^2]: Transport in a disordered $\nu=2/3$ fractional quantum Hall junction (2017). [DOI](https://www.sciencedirect.com/science/article/pii/S0003491617302142?casa_token=pyKGHhFE[…]okEil4O9OWEB54TNysMTXnufxPvbfkxt7zHBOLyhQv6ewmA0PXAPjMMjZE)
+
+[^3]: Observation of ballistic upstream modes at fractional quantum Hall edges of graphene (2022). [DOI](https://doi.org/10.1038/s41467-021-27805-4)
