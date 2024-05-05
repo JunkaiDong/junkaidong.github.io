@@ -10,9 +10,9 @@ This small note is an expanded version of my final writeup for PHYSICS 268AR tha
 
 We all know that in quantum Hall-like systems, edge states dominate the transport signatures. How do we see that?
 
-Let us focus on the simplest states: the $\nu=1/m$ Laughlin states. The transport signatures are: 
+Let us focus on the simplest states: the $|\nu|=1/m$ Laughlin states. The transport signatures are: 
 
-$$G^{2T} = G_H^{4T} = \frac{e^2}{mh},$$
+$$G^{2T} = |G_H^{4T}| = \frac{e^2}{mh},$$
 
 in which $G=I/V$ is the conductance. For two terminal we employ the following geometry:
 
@@ -346,7 +346,7 @@ We will now proceed with the following program. We will massage $S_\sigma$ into 
 
 #### Hidden $SU(2)$ symmetry
 
-Now we note that the action $-\frac{1}{4\pi}\int_{x,t} \ \partial_x\phi_\sigma(-\partial_t+v_\sigma\partial_x)\phi_\sigma$ actually describes the neutral sector of a spin-$1/2$ chiral fermion, with the current algebra given by $J^{\pm}\sim\psi^\dagger \sigma^{\pm}\psi\sim e^{\pm i\sqrt{2}\phi_\sigma}$, and $J_z\sim\psi^\dagger \sigma_z\sim\partial_x\phi_\sigma$. To do this more explicitly, we introduce an additional boson $\chi$ where
+Now we note that the action $-\frac{1}{4\pi}\int_{x,t} \ \partial_x\phi_\sigma(-\partial_t+v_\sigma\partial_x)\phi_\sigma$ actually describes the neutral sector of a spin-$1/2$ chiral fermion, with the current algebra given by $J^{\pm}\sim\psi^\dagger \sigma^{\pm}\psi\sim e^{\pm i\sqrt{2}\phi_\sigma}$, and $J_z\sim\psi^\dagger \sigma_z \psi\sim\partial_x\phi_\sigma$. To do this more explicitly, we introduce an additional boson $\chi$ where
 
 $$
 S_{\chi} = -\frac{1}{4\pi}\int_{x,t} \ \partial_x\chi(-\partial_t+v_\sigma\partial_x)\chi.
@@ -404,7 +404,7 @@ which shows that the coupling $\tilde{v}$ has dimension $3-2\Delta_{O_v}=-1$. He
 
 A couple comments are in order, which are kindly pointed out by Patrick Ledwith and Eslam Khalaf. Firstly, although the disorder term is shown to be perturbatively relevant for $\Delta<3/2$, it is unclear where the IR fixed point will be. The above calculation shows that the $\Delta=1$ point is perturbatively stable, but it does not establish that for any $\Delta<3/2$ the theory will flow to $\Delta=1$. Secondly, although a rewriting of $S$ in terms of $\phi_\rho$ and $\phi_\sigma$ is possible in the clean limit, one would find that $v$ is marginal and would not flow. This is why disorder induced correlations are important. Thirdly, a more careful analysis of the random couplings between $\phi_\rho$ and $\tilde\psi$ based on replica tricks can be found in [^2].
 
-#### Stripping of $\chi$
+#### Stripping off $\chi$
 
 One might worry that the above transformations are not legit, given that an additional degree of freedom, i.e. $\chi$, corresponding to the $U(1)$ charge dynamics of $\psi$, has been added. We will now show that this is not the case.
 
