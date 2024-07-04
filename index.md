@@ -25,6 +25,11 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs Q. Li, **J. Dong**, P. J. Ledwith, and E. Khalaf, Constraints on real space representations of Chern bands.
+
+[arXiv](https://arxiv.org/abs/2407.02561)
+@@
+
 @@pubs T. Soejima$^*$, **J. Dong**$^*$, T. Wang, T. Wang, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene II: General Mechanism and a Minimal Model.
 
 [arXiv](https://arxiv.org/abs/2403.05522) 
