@@ -15,7 +15,7 @@
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. In Fall 2024, I will visit KITP as a KITP Graduate Fellow. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading.</p>
+    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. I am currently visiting KITP as a KITP Graduate Fellow until December 2024. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
