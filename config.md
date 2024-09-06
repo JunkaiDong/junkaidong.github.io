@@ -65,5 +65,6 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\tabref}[1]{Tab.\,\ref{#1}}
 \newcommand{\ov}{\overline}
 \newcommand{\l}{\left.<\right.}
+\newcommand{\g}{\left. > \right.}
 \newcommand{\vv}[1]{\boldsymbol{#1}}%%shortcut to make a vector (overwrites the default command)
 \newcommand{\cev}[1]{\reflectbox{\ensuremath{\vec{\reflectbox{\ensuremath{#1}}}}}}

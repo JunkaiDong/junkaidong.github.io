@@ -25,6 +25,11 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs P. J. Ledwith, **J. Dong**, A. Vishwanath, and E. Khalaf, Nonlocal Moments in the Chern Bands of Twisted Bilayer Graphene
+
+[arXiv](https://arxiv.org/abs/2408.16761)
+@@
+
 @@pubs Q. Li, **J. Dong**, P. J. Ledwith, and E. Khalaf, Constraints on real space representations of Chern bands.
 
 [arXiv](https://arxiv.org/abs/2407.02561)
