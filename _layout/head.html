@@ -4,7 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="JkqfTj31_AHIEGyz7MqBpq-ziKqWLmPzlFGWQpiHoF4" />
-  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+  <script>
+    MathJax = {
+      loader: {load: ['[tex]/ams']},
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        packages: {'[+]':['base', 'ams', 'color', 'physics']},
+        tags: 'all'
+      },
+      svg: {fontCache: 'global'}
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <!-- {{if hasmath}} {{insert head_katex.html }}     {{end}} -->
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
   {{insert style.html}}
   {{isdef title}} <title>{{fill title}}</title>  {{end}}

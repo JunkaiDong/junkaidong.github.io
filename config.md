@@ -4,6 +4,7 @@ Add here global page variables to use throughout your website.
 +++
 author = "Junkai Dong"
 mintoclevel = 3
+mathjax=true
 
 keep_path = ["googlea83d5a85d198f1f2.html"]
 
@@ -66,5 +67,7 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\ov}{\overline}
 \newcommand{\l}{\left.<\right.}
 \newcommand{\g}{\left. > \right.}
+\newcommand{\floor}[1]{\left \lfloor {#1}\right \rfloor}%
+\newcommand{\ceil}[1]{\left \lceil {#1} \right \rceil}%
 \newcommand{\vv}[1]{\boldsymbol{#1}}%%shortcut to make a vector (overwrites the default command)
 \newcommand{\cev}[1]{\reflectbox{\ensuremath{\vec{\reflectbox{\ensuremath{#1}}}}}}

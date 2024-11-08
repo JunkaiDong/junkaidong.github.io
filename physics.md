@@ -20,6 +20,8 @@ Here I will store a bit of physics that can be related or unrelated to what I'm 
 
 [Taming Edgy Currents by Disorder](/physics/Kane-Fisher-Polchinski)
 
+[First passage time: when can I get home?](/physics/firstpassage)
+
 ### Short Notes
 
 [Kramers-Wannier Duality](/physics/KW)
