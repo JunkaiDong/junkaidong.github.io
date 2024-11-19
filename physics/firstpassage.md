@@ -1,8 +1,8 @@
-@def title = "First Return Time of Random Walks" 
+@def title = "First Passage Time of Random Walks" 
 
 ## First passage time: when can I get home?
 
-I was reminded of related topics at KITP Many-body Optics conference. I wanted to write these down because I forget how to work them out once in a while.
+I was reminded of related topics at KITP Many-body Optics conference. I wanted to write these down because I forget how to work them out once in a while. A good review of this topic is [J. Phys. A: Math. Theor. 53, 193001](https://iopscience.iop.org/article/10.1088/1751-8121/ab7cfe/meta).
 
 \toc
 
@@ -122,13 +122,13 @@ In fact one can see above that $R=1$ if and only if $N_R=\infty$.
 
 Here are also some combinatorial facts that we can derive:
 
-- Number of Dyck paths (paths that remain non-negative) with $2n$ steps:
+- Number of Dyck paths (paths that remain non-negative and reach zero at the end) with $2n$ steps:
 
 Define $p^+(x, n)$ to be the probability that the walker used a Dyck path to reach point $x$. Let $x=0$. Similarly we can derive
 
-$$p^+(0,n)=1+\sum_j \frac{f(0,2j)}{2}p^+(0,n-j)$$
+$$p^+(0,n)=\delta_n+\sum_j \frac{f(0,2j)}{2}p^+(0,n-2j)$$
 
-in which the factor of $2$ accounts for the fact that the first arrival can be either positive or negative.
+The factor of $2$ accounts for the fact that the first arrival can be either positive or negative.
 
 Solving the generating functions, we have
 
@@ -241,7 +241,7 @@ where we can identify $m_2-m_1^2=\mu_2$ is the second cumulant, also known as th
 
 Let's view what we have done in an RG perspective. We have essentially identified the ''kinetic term'' -- i.e. the term that generates nontrivial dynamics -- and kept it invariant as we do the $N\to\infty$ scaling. This has generated a relevant perturbation (the drift, which scales as $\sqrt{N}$), and a bunch of irrelevant perturbations corresponding to the third and higher cumulants. Indeed, one can also prove the CLT in this way.
 
-#### Life in the Fourier space
+#### Life in Fourier-Laplace space
 
 One can solve the diffusion equation by Fourier transforming in $x$. That is, consider Fourier transforming with the convention
 
@@ -486,7 +486,7 @@ Random walker takes normal steps, but sleeps for a long time between steps. Here
 
 Random walker takes huge steps, and takes a long time to wake up. Here $X\sim\braket{n(t)}^{1/\mu}\sim t^{\gamma/\mu}$.
 
-#### First return time 
+#### First return time: Pollaczek-Spitzer formula, Sparre-Anderson theorem
 
 Using the Montroll-Weiss equation, we may write
 
@@ -494,7 +494,45 @@ $$
 \rho(k,s) = \frac{s^{\gamma}}{s(s^\gamma+k^\mu)} = \frac{1}{s+k^\mu s^{1-\gamma}}
 $$
 
-*I had hoped that at this point I could do the first return calculations for anomalous diffusion, but it seems that the computation of the Fourier transform is quite hard. Let me know if you could do it.* Reference is PRE 62, 6065 and Phys. Lett. A 273, 322-330.
+*I had hoped that at this point I could do the first return/passage calculations for anomalous diffusion, but it seems that the computation of the inverse Fourier transform is quite hard.*
+
+We consider a special case where we have 1D discrete-time random walk, but each step obeys a random distribution $p(k)$ which could be a Lévy flight. Define $S(x_0, n)$ to be the survival probability (that the trajectory never crossed the origin) at step $n$, and $S(x_0,z)$ be the generating function. Assume that the distribution of $p(x)$ is continuous. Then the Pollaczek-Spitzer formula states that
+
+$$
+\int_0^\infty S(x_0,z) e^{-px_0}dx_0 = \frac{1}{p\sqrt{1-z}}\exp\left[-\frac{p}{\pi}\int_0^\infty \frac{\log(1-zp(k))}{p^2+k^2}dk\right]
+$$
+
+Particularly if we take $x_0=0$, $p\to\infty$, we obtain the Sparre-Anderson theorem:
+
+$$
+S(0,z) = \frac{1}{\sqrt{1-z}}
+$$
+
+and thus
+
+$$
+S(0,n) = 2^{-2n} \binom{2n}{n}
+$$
+
+completely *independent* of $p(k)$!!
+
+Note: this cannot be applied to discrete random walks in the first section! For example, $S(0,2)=3/8$ -- impossible in discrete random walks.
+
+We comment that it is rather surprising that $S(0,n)$ is independent of $p(x)$, although $S(x_0,n)$ is generally dependent on $p(x)$. This means that the expected return time is, for general symmetric distributions (including Lévy flights), still infinity, although all the random walks are recurrent.
+
+Another way to see it is to consider the probability distribution at $0$, i.e. $p(0,n)$. Then we know that the random walk is recurrent if and only if 
+
+$$
+\braket{N(0)} = \sum_n p_n(0) = \infty
+$$
+
+However, since $p_n(k)=p(k)^n$, we can write
+
+$$
+\braket{N(0)} = p(0,z=1) = \int \frac{dk}{2\pi}\sum_n p(k)^n = \int \frac{dk}{2\pi} \frac{1}{1-p(k)} \sim \int\frac{dk}{|k|^\mu}
+$$
+
+Surprisingly, when $0<\mu<1$, this integral does not blow up at small $k$; it thus has no singularity. The random walk is not recurrent, and thus contradicts the discussion above that the survival property is independent of $p(k)$. I am generally confused about this apparent paradox.
 
 ### How to improve first passage time for diffusive system
 
@@ -578,6 +616,34 @@ $$
 S(x_1,s) = \frac{1-e^{-\alpha x_1}}{s+r e^{-\alpha x_0}}
 $$
 
+Another way to derive this is through the following equation called the last renewal equation. The last renewal equation states the following: the survival probability starting at point $x_1$ is either the survival probability without any resetting (denoted $S_0$), or with the last reset happening at $\tau$ with probability $r e^{-r\tau}$ (assuming Poissonian resetting).
+
+Thus,
+
+$$
+S_r(x_1, t) = e^{-rt}S_0(x_1,t)+r\int_0^t d\tau e^{-r\tau}S_0(x_0, \tau)S_r(x_1, t-\tau)
+$$
+
+Laplace transforming gives
+
+$$
+S_r(x_1, s) = S_0(x_1,r+s) + r S_0(x_0, r+s)S_r(x_1, s)
+$$
+
+and thus we have
+
+$$
+S_r(x_1, s) = \frac{S_0(x_1,r+s)}{1-rS_0(x_0,r+s)}
+$$
+
+from Eq. (43) above we read that $S_0(x, s) = (1-e^{-\sqrt{s/D}x_0})/s$. Thus,
+
+$$
+S_r(x_1, s) = \frac{1-e^{-\alpha x_1}}{s+r e^{-\alpha x_0}}
+$$
+
+which recovers the above result.
+
 From this we see that the survival probability is zero at infinite time for all $x_1$: if the survival probability tends to a constant, the low $s$ contribution would be $1/s$. However here we see that this is not the case. Thus the passage probability is
 
 $$
@@ -592,17 +658,39 @@ $$
 
 where $\alpha_0=\sqrt{r/D}$. This is finite now!
 
-Again, it would be cool to see what resetting implies for Lévy flights...
+#### Modification: Lévy Flight
+
+We employ the setup of discrete-time random walks again. For each step we consider a resetting probability of $r$. We can derive the analogue of Eq. (80):
+
+$$
+S_r(x_1, z) = S_0(x_1,(1-r)z)+rzS_0(x_0,(1-r)z)S_r(x_0,z)
+$$
+
+and thus
+
+$$
+S_r(x_1, z) = \frac{S_0(x_1,(1-r)z)}{1-rzS_0(x_0,(1-r)z)}
+$$
+
+and thus, from the Pollaczek-Spitzer formula, we can try to extract $S_r$ for general $x_1$. Let's set $x_0=x_1=0$. The Sparre-Anderson theorem gives us the first return time
+
+$$
+\braket{T(x_1=x_0=0)}=S_r(0,z=1) = \frac{1}{\sqrt{r}-r}
+$$
+
+When $r\to 0$, it is surprisingly hard to recover the $r^{-1/2}$ limit from the previous result (84). We must take $r\to 0$ first -- thus the denominator is $\sqrt{r}$ -- and then take $x_1\to 0$. This might be an artifact from continuous time.
 
 ### Conclusion
 
-In this note we derived three different ways to do first passage problems:
+In this note we derived several different ways to do first passage problems:
 
 - Solving for the first passage time distribution explicitly;
 
 - Solving the forward master equation (forward Fokker-Planck equation) with absorbing boundary conditions, and either integrate the survival probability or compute the probability current;
 
-- Solving the backward master equation (backward Fokker-planck equation), and then either deriving the first passage time distribution or directly solving for the expected first passage time.
+- Solving the backward master equation (backward Fokker-planck equation), and then either deriving the first passage time distribution or directly solving for the expected first passage time;
+
+- Solving the last renewal equation.
 
 <!-- We take $x_1=x_0$ later. Laplace transforming in $t$ and Fourier transforming in $x$, the equation becomes
 
