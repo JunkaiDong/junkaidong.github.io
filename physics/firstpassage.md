@@ -496,7 +496,7 @@ $$
 
 *I had hoped that at this point I could do the first return/passage calculations for anomalous diffusion, but it seems that the computation of the inverse Fourier transform is quite hard.*
 
-We consider a special case where we have 1D discrete-time random walk, but each step obeys a random distribution $p(k)$ which could be a Lévy flight. Define $S(x_0, n)$ to be the survival probability (that the trajectory never crossed the origin) at step $n$, and $S(x_0,z)$ be the generating function. Assume that the distribution of $p(x)$ is continuous. Then the Pollaczek-Spitzer formula states that
+We consider a special case where we have 1D discrete-time random walk, but each step obeys a random distribution $p(k)$ which could be a Lévy flight. Define $S(x_0, n)$ to be the survival probability (that the trajectory is always positive) at step $n$, and $S(x_0,z)$ be the generating function. Assume that the distribution of $p(x)$ is continuous. Then the Pollaczek-Spitzer formula states that
 
 $$
 \int_0^\infty S(x_0,z) e^{-px_0}dx_0 = \frac{1}{p\sqrt{1-z}}\exp\left[-\frac{p}{\pi}\int_0^\infty \frac{\log(1-zp(k))}{p^2+k^2}dk\right]
@@ -532,7 +532,7 @@ $$
 \braket{N(0)} = p(0,z=1) = \int \frac{dk}{2\pi}\sum_n p(k)^n = \int \frac{dk}{2\pi} \frac{1}{1-p(k)} \sim \int\frac{dk}{|k|^\mu}
 $$
 
-Surprisingly, when $0<\mu<1$, this integral does not blow up at small $k$; it thus has no singularity. The random walk is not recurrent, and thus contradicts the discussion above that the survival property is independent of $p(k)$. I am generally confused about this apparent paradox.
+Surprisingly, when $0<\mu<1$, this integral does not blow up at small $k$; it thus has no singularity. The random walk is not recurrent, and thus contradicts the discussion above that the survival property is independent of $p(k)$. I am generally confused about this apparent paradox. The only resolution then is that the continuum time limit cannot be easily taken, i.e. crossing the origin means flying past the origin instead of pass through the origin?
 
 ### How to improve first passage time for diffusive system
 
