@@ -25,6 +25,11 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs **J. Dong**$^*$, O. E. Sommer, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature.
+
+[arXiv](https://arxiv.org/abs/2503.16390)
+@@
+
 @@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, A Jellium Model for the Anomalous Hall Crystal.
 
 [arXiv](https://arxiv.org/abs/2503.12704)
@@ -45,9 +50,9 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [DOI](https://doi.org/10.1103/PhysRevB.110.205124) | [arXiv](https://arxiv.org/abs/2403.05522)
 @@
 
-@@pubs M. Fujimoto, D. E. Parker, **J. Dong**, E. Khalaf, A. Vishwanath, and P. J. Ledwith, Higher vortexability: zero field realization of higher Landau levels.
+@@pubs M. Fujimoto, D. E. Parker, **J. Dong**, E. Khalaf, A. Vishwanath, and P. J. Ledwith, Higher vortexability: zero field realization of higher Landau levels. *Phys. Rev. Lett.* 134, 106502 (2025). Editor's Suggestion.
 
-[arXiv](https://arxiv.org/abs/2403.00856) 
+[DOI](https://doi.org/10.1103/PhysRevLett.134.106502) | [arXiv](https://arxiv.org/abs/2403.00856) 
 @@
 
 @@pubs **J. Dong**$^*$, T. Wang$^*$, T. Wang$^*$, T. Soejima, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene I: Interaction-Driven Chern Bands and Fractional Quantum Hall States at Zero Magnetic Field. *Phys. Rev. Lett.* 133, 206503 (2024).
