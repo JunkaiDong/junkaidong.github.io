@@ -25,7 +25,12 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
-@@pubs **J. Dong**$^*$, O. E. Sommer, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature.
+@@pubs R. Fan, **J. Dong**$^*$, and A. Vishwanath, Simulating the non-unitary Yang-Lee conformal field theory on the fuzzy sphere.
+
+[arXiv](https://arxiv.org/abs/2505.06342)
+@@
+
+@@pubs **J. Dong**$^*$, O. E. Sommer$^*$, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature.
 
 [arXiv](https://arxiv.org/abs/2503.16390)
 @@
@@ -106,6 +111,22 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 @@
 
 ### Talks
+
+@@pubs *Anomalous Hall Crystal and its Phonons*, Invited Talk, MRS Spring Meeting and Exhibit, April 2025.
+
+@@
+
+@@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Invited Talk, Joonho Lee Group Meeting, March 2025.
+
+@@
+
+@@pubs *Stripping off the Magnetic Field from the Lowest Landau Level*, Invited Talk, KITP Locals Lunch, August 2024.
+
+@@
+
+@@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Invited Talk, KITP Condensed Matter Meeting, July 2024.
+
+@@
 
 @@pubs *Anomalous Hall Crystals in Rhombohedral Multilayer Graphene*, Invited Talk, Quantum Theory Seminar, Cornell University, April 2024. [Video](https://www.youtube.com/watch?v=huH89VB2wao)
 
