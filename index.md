@@ -25,7 +25,7 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
-@@pubs R. Fan, **J. Dong**$^*$, and A. Vishwanath, Simulating the non-unitary Yang-Lee conformal field theory on the fuzzy sphere.
+@@pubs R. Fan, **J. Dong**, and A. Vishwanath, Simulating the non-unitary Yang-Lee conformal field theory on the fuzzy sphere.
 
 [arXiv](https://arxiv.org/abs/2505.06342)
 @@
