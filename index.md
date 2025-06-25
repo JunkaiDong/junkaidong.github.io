@@ -15,7 +15,7 @@
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. In Fall 2024, I have visited KITP as a KITP Graduate Fellow. I will be applying to postdoc positions in Fall 2025. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
+    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. In Summer 2025, I will be at the Boulder Summer School. I will be applying to postdoc positions in Fall 2025. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
@@ -42,7 +42,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@pubs P. J. Ledwith, **J. Dong**, A. Vishwanath, and E. Khalaf, Nonlocal Moments in the Chern Bands of Twisted Bilayer Graphene.
 
-[arXiv](https://arxiv.org/abs/2408.16761)
+[DOI](https://doi.org/10.1103/PhysRevX.15.021087) | [arXiv](https://arxiv.org/abs/2408.16761)
 @@
 
 @@pubs Q. Li, **J. Dong**, P. J. Ledwith, and E. Khalaf, Constraints on real space representations of Chern bands.
