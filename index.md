@@ -6,7 +6,7 @@
 ~~~
 <div class="row">
   <div class="container">
-    <img class="right" src="/assets/JD-photo-25.5.jpg" style="max-width: 40%; padding: 0px 25px 0px 25px">
+    <img class="right" src="/assets/JD-photo-25.7.jpg" style="max-width: 40%; padding: 0px 25px 0px 25px">
     <p>
     <a href="http://arxiv.org/a/dong_j_3">arXiv</a> | <a href="https://scholar.google.com/citations?user&#61;pgN4BLIAAAAJ&amp;hl&#61;en">Google Scholar</a> | <a href="/assets/cv_JunkaiDong.pdf">CV</a>
     </p>
