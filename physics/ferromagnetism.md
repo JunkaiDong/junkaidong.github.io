@@ -73,7 +73,7 @@ As expected, $U\to\infty$, the antiferromagnetic exchange is $0$; since $t<0$, t
 
 The Nagaoka ferromagnetism can be easily extended through this argument by taking the $V\to 0$ limit. Although this limit feels singular, it is because we are no longer able to write down a local exchange interaction because the electrons can move across the system. Particularly, the connectivity condition enables the hole to visit every single site in the lattice, bringing its ferromagnetic aura everywhere. In some sense, one should replace $V$ by the kinetic energy of the hole - proportional to $t$ - so that the ferromagnetic energy scale will be proportional to $t$, the hopping.
 
-### Non-bilartite Lattices, Particle-Hole Asymmetry, and Particle Statistics
+### Non-bipartite Lattices, Particle-Hole Asymmetry, and Particle Statistics
 
 We notice that the statement of Nagaoka theorem does not care about whether the system is made up of fermions or hard-core bosons; it just needs the holes to feel a negative hopping. But the "parent state" of Nagaoka ferromagnetism - the half-filled state - is drastically different for bosons and fermions: for bosons, as we alluded to in the previous paragraph, the state is a ferromagnet, whereas for fermions it is an antiferromagnet. Of course, on bipartite lattices, the ferromagnet is exactly equivalent to the antiferromagnet by flipping spins on one of the sublattices. Thus, in one dimensions for the nearest neighbor hopping Hubbard model, we can't tell the difference between fermions and bosons, as is made apparent by the bosonization procedure.
 
