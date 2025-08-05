@@ -25,6 +25,16 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs M. Uzan, W. Zhi, M. Bocarsly, **J. Dong**, S. Dutta, N. Auerbach, N. S. Kander, M. Labendik, Y. Myasoedov, M. E. Huber, K. Watanabe, T. Taniguchi, D. E. Parker, and E. Zeldov, hBN alignment orientation controls moiré strength in rhombohedral graphene.
+
+[arXiv](https://arxiv.org/abs/2507.20647)
+@@
+
+@@pubs T. Soejima, **J. Dong**, O. E. Sommer, D. E. Parker, and A. Vishwanath, Topological constraint on crystalline current.
+
+[arXiv](https://arxiv.org/abs/2507.18611)
+@@
+
 @@pubs R. Fan, **J. Dong**, and A. Vishwanath, Simulating the non-unitary Yang-Lee conformal field theory on the fuzzy sphere.
 
 [arXiv](https://arxiv.org/abs/2505.06342)
