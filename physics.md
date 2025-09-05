@@ -29,3 +29,5 @@ Here I will store a bit of physics that can be related or unrelated to what I'm 
 [No Solid State Triangular Lattice Hubbard Model?](/physics/no_triangular_Hubbard)
 
 [Spin State of Halperin $(mmn)$ States](/physics/Halperinmmn)
+
+[How does the Lin table work?](/physics/LinTable)

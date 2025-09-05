@@ -40,7 +40,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2505.06342)
 @@
 
-@@pubs **J. Dong**$^*$, O. E. Sommer$^*$, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature.
+@@pubs **J. Dong**$^*$, O. E. Sommer$^*$, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature. *PNAS* in press.
 
 [arXiv](https://arxiv.org/abs/2503.16390)
 @@
@@ -50,7 +50,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2503.12704)
 @@
 
-@@pubs P. J. Ledwith, **J. Dong**, A. Vishwanath, and E. Khalaf, Nonlocal Moments in the Chern Bands of Twisted Bilayer Graphene.
+@@pubs P. J. Ledwith, **J. Dong**, A. Vishwanath, and E. Khalaf, Nonlocal Moments in the Chern Bands of Twisted Bilayer Graphene. *Phys. Rev. X* 15, 021087 (2025).
 
 [DOI](https://doi.org/10.1103/PhysRevX.15.021087) | [arXiv](https://arxiv.org/abs/2408.16761)
 @@
