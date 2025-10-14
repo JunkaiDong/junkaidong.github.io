@@ -40,12 +40,12 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2505.06342)
 @@
 
-@@pubs **J. Dong**$^*$, O. E. Sommer$^*$, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature. *PNAS* in press.
+@@pubs **J. Dong**$^*$, O. E. Sommer$^*$, T. Soejima, D. E. Parker, and A. Vishwanath, Phonons in Electron Crystals with Berry Curvature. *Proc. Natl. Acad. Sci.* USA 122 (38), e2515532122 (2025).
 
-[arXiv](https://arxiv.org/abs/2503.16390)
+[DOI](https://www.pnas.org/doi/10.1073/pnas.2515532122) | [arXiv](https://arxiv.org/abs/2503.16390)
 @@
 
-@@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, A Jellium Model for the Anomalous Hall Crystal.
+@@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, A Jellium Model for the Anomalous Hall Crystal. *Phys. Rev. Lett.* in press.
 
 [arXiv](https://arxiv.org/abs/2503.12704)
 @@

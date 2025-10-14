@@ -37,7 +37,7 @@ $$
 d(m,m/2)\approx \frac{2^m}{\sqrt{m\pi/2}}.
 $$
 
-This is huge: for $m=40$, $d\approx 10^{11}$. Thus one would be working with an matrix of size $10^{11}$. Fine, you say: as long as I want the extremal eigenvalues I can just use the Lanczos algorithm, which does not require me to store the matrix in the memory. Two things will now arise as problems. First of you one needs to keep track of the vector throughout the Lanczos algorithm. If you use `ComplexF64` in julia that's about $1.6\textrm{TB}$. How very impressive that you have such a huge chunk of RAM. If you don't, you can do distributed ED where you chop the vector up into chunks. However, another big problem will arise, which necessitates the usage of Lin tables.
+This is huge: for $m=40$, $d\approx 10^{11}$. Thus one would be working with an matrix of size $10^{11}$. Fine, you say: as long as I want the extremal eigenvalues I can just use the Lanczos algorithm, which does not require me to store the matrix in the memory. Two problems will now arise. First of you one needs to keep track of the vector throughout the Lanczos algorithm. If you use `ComplexF64` in julia that's about $1.6\textrm{TB}$. How very impressive that you have such a huge chunk of RAM. If you don't, you can do distributed ED where you chop the vector up into chunks. However, another big problem will arise, which necessitates the usage of Lin tables.
 
 Let's illustrate this with a simple example. Say $m=6, k=3$. Consider the state
 
@@ -91,7 +91,7 @@ I_B &              &              &              &              &              &
 \end{array}
 $$
 
-Here on the $x$ axis I write out all the possible $I_A$ and on $y$ axis all the $I_B$. The checkmarks correspond to the basis elements that lie in $\mathcal{H}_3$ after I concatenate $I_A$ and $I_B$. 
+Here on the $x$ axis I write out all the possible $I_A$ and on $y$ axis all the $I_B$. The crosses correspond to the basis elements that lie in $\mathcal{H}_3$ after I concatenate $I_A$ and $I_B$. 
 
 Although this looks like a mess, it will suddenly become much better if I do a rearrangement of the basis elements:
 
@@ -131,7 +131,7 @@ I_B &              &              &              &              &              &
 \end{array}
 $$
 
-We will now assign numbers to the basis elements of $\mathcal{H}_3$, i.e. we will replace the checkmarks with numbers. What we will make use of is exactly the rectangularity-of-blocks structure. One of such numberings is the following:
+We will now assign numbers to the basis elements of $\mathcal{H}_3$, i.e. we will replace the crosses with numbers. What we will make use of is exactly the rectangularity-of-blocks structure. One of such numberings is the following:
 
 $$
 \begin{array}{|c|c|c|c|c|c|c|c|c|c|}
@@ -149,7 +149,7 @@ I_B &              &              &              &              &              &
 \end{array}
 $$
 
-Indeed you can observe that the numbering of each block has the following pattern: they all look like
+You can observe that the numbering of each block has the following pattern: they all look like
 
 $$
 \begin{array}{|c|c|c|c|c|}
@@ -187,4 +187,6 @@ I suggest the reader to verify by hand that this is indeed matches $J(I)$ above.
 
 The objects $J_A(I_A)$ and $J_B(I_B)$ are the Lin tables. They are significantly smaller objects. Indeed they are of size $\sqrt{d(m,k)}$; for $m=40, k=20$, they are of sizes $2.5\textrm{MB}$ and can thus fit into the caches, significantly reducing the lookup cost.
 
-Generalization to Hilbert spaces with finitely generated Abelian symmetries (just use the decomposition theorem) and multiple Lin tables are trivial. One can also calculate what's the optimal number of Lin tables to use if they were to be the most memory efficient.
+Here we briefly discuss how to convert from the index $J$ to the fermionic configuration $I$. First, perform a binary search on $J$ to figure out which block $J$ belongs to. Then, $J_A$ and $J_B$ can be determined from the sizes of the particular block by modular arithmetics. Inverting within the block from $J_A$ and $J_B$ can thus be performed. (Note that the mapping from $I_A$ to $J_A$ is not one-to-one, and can only be done once the block is specified.) Then, one concatenates $I_A$ and $I_B$ to obtain the full fermionic configuration $I$.
+
+Generalization to Hilbert spaces with finitely generated Abelian symmetries (just use the decomposition theorem) and multiple Lin tables are trivial. One can also calculate what's the optimal number of Lin tables to use if they were to be the most memory efficient. Lastly, we note that this is exactly what one needs to do if they were to compute the symmetry-resolved particle entanglement spectrum.
