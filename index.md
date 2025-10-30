@@ -45,9 +45,9 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [DOI](https://www.pnas.org/doi/10.1073/pnas.2515532122) | [arXiv](https://arxiv.org/abs/2503.16390)
 @@
 
-@@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, A Jellium Model for the Anomalous Hall Crystal. *Phys. Rev. Lett.* in press.
+@@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, $\lambda$-Jellium Model for the Anomalous Hall Crystal. Phys. Rev. Lett. 135, 186505 (2025).
 
-[arXiv](https://arxiv.org/abs/2503.12704)
+[DOI](https://doi.org/10.1103/x53d-12s6) | [arXiv](https://arxiv.org/abs/2503.12704)
 @@
 
 @@pubs P. J. Ledwith, **J. Dong**, A. Vishwanath, and E. Khalaf, Nonlocal Moments in the Chern Bands of Twisted Bilayer Graphene. *Phys. Rev. X* 15, 021087 (2025).
