@@ -15,7 +15,7 @@
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. In Summer 2025, I will be at the Boulder Summer School. I will be applying to postdoc positions in Fall 2025. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
+    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
@@ -24,6 +24,11 @@
 <!-- ### About Me
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
+
+@@pubs A. Valenti, Y. Vituri, Y. Yang, D. E. Parker, T. Soejima, **J. Dong**, M. A. Morales, A. Vishwanath, E. Berg, and S. Zhang, Quantum Geometry Driven Crystallization: A Neural-Network Variational Monte Carlo Study.
+
+[arXiv](https://arxiv.org/abs/2512.07947)
+@@
 
 @@pubs M. Uzan, W. Zhi, M. Bocarsly, **J. Dong**, S. Dutta, N. Auerbach, N. S. Kander, M. Labendik, Y. Myasoedov, M. E. Huber, K. Watanabe, T. Taniguchi, D. E. Parker, and E. Zeldov, hBN alignment orientation controls moiré strength in rhombohedral graphene.
 
