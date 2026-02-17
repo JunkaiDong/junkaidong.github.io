@@ -15,7 +15,7 @@
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
+    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. I will be joining Stanford University in Fall 2026. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
@@ -72,7 +72,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@pubs M. Fujimoto, D. E. Parker, **J. Dong**, E. Khalaf, A. Vishwanath, and P. J. Ledwith, Higher vortexability: zero field realization of higher Landau levels. *Phys. Rev. Lett.* 134, 106502 (2025). Editor's Suggestion.
 
-[DOI](https://doi.org/10.1103/PhysRevLett.134.106502) | [arXiv](https://arxiv.org/abs/2403.00856) 
+[DOI](https://doi.org/10.1103/PhysRevLett.134.106502) | [arXiv](https://arxiv.org/abs/2403.00856) Publicity: [PRL's Collection of the Year 2025](https://promo.aps.org/PRL2025)
 @@
 
 @@pubs **J. Dong**$^*$, T. Wang$^*$, T. Wang$^*$, T. Soejima, M. P. Zaletel, A. Vishwanath, and D. E. Parker, Anomalous Hall Crystals in Rhombohedral Multilayer Graphene I: Interaction-Driven Chern Bands and Fractional Quantum Hall States at Zero Magnetic Field. *Phys. Rev. Lett.* 133, 206503 (2024).
@@ -126,6 +126,22 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 @@
 
 ### Talks
+
+@@pubs *Anomalous Hall Crystal and its Phonons*, Kids Seminar, Harvard University, February 2026.
+
+@@
+
+@@pubs *Anomalous Hall Crystal and its Phonons, Center for Computational Quantum Physics, Flatiron Institute, Dec 2025.
+
+@@
+
+@@pubs *Anomalous Hall Crystal and its Phonons*, Geballe Laboratory for Advanced Materials, Stanford University, Dec 2025.
+
+@@
+
+@@pubs *Anomalous Hall Crystal and its Phonons*, Thouless Institute for Quantum Matter Seminar, University of Washington Seattle, Dec 2025.
+
+@@
 
 @@pubs *Anomalous Hall Crystal and its Phonons*, Invited Talk, MRS Spring Meeting and Exhibit, April 2025.
 
