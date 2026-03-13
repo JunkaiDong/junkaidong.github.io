@@ -37,7 +37,7 @@ $$
 d(m,m/2)\approx \frac{2^m}{\sqrt{m\pi/2}}.
 $$
 
-This is huge: for $m=40$, $d\approx 10^{11}$. Thus one would be working with an matrix of size $10^{11}$. Fine, you say: as long as I want the extremal eigenvalues I can just use the Lanczos algorithm, which does not require me to store the matrix in the memory. Two problems will now arise. First of you one needs to keep track of the vector throughout the Lanczos algorithm. If you use `ComplexF64` in julia that's about $1.6\textrm{TB}$. How very impressive that you have such a huge chunk of RAM. If you don't, you can do distributed ED where you chop the vector up into chunks. However, another big problem will arise, which necessitates the usage of Lin tables.
+This is huge: for $m=40$, $d\approx 10^{11}$. Thus one would be working with an matrix of size $10^{11}$. Fine, you say: as long as I want the extremal eigenvalues I can just use the Lanczos algorithm, which does not require me to store the matrix in the memory. Two problems will now arise. First of all one needs to keep track of the vector throughout the Lanczos algorithm. If you use `ComplexF64` in julia that's about $1.6\textrm{TB}$. How very impressive that you have such a huge chunk of RAM. If you don't, you can do distributed ED where you chop the vector up into chunks. However, another big problem will arise, which necessitates the usage of Lin tables.
 
 Let's illustrate this with a simple example. Say $m=6, k=3$. Consider the state
 

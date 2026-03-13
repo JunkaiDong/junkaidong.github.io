@@ -25,6 +25,11 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs C. E. Henzinger, J. R. Ehrets, R. Fushio, **J. Dong**, T. Werkmeister, M. E. Wesson, K. Watanabe, T. Taniguchi, A. Vishwanath, B. I. Halperin, A. Yacoby, and P. Kim, Controlled localization of anyons in a graphene quantum Hall interferometer.
+
+[arXiv](https://arxiv.org/abs/2603.11182)
+@@
+
 @@pubs A. Valenti, Y. Vituri, Y. Yang, D. E. Parker, T. Soejima, **J. Dong**, M. A. Morales, A. Vishwanath, E. Berg, and S. Zhang, Quantum Geometry Driven Crystallization: A Neural-Network Variational Monte Carlo Study.
 
 [arXiv](https://arxiv.org/abs/2512.07947)
