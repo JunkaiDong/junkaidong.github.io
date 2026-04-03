@@ -25,6 +25,11 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
+@@pubs **J. Dong**$^*$, T. Soejima$^*$, D. E. Parker, and A. Vishwanath, Crystals Caught Doping: Metallic Wigner Crystals in Rhombohedral Graphene.
+
+[arXiv](https://arxiv.org/abs/2604.00114)
+@@
+
 @@pubs C. E. Henzinger, J. R. Ehrets, R. Fushio, **J. Dong**, T. Werkmeister, M. E. Wesson, K. Watanabe, T. Taniguchi, A. Vishwanath, B. I. Halperin, A. Yacoby, and P. Kim, Controlled localization of anyons in a graphene quantum Hall interferometer.
 
 [arXiv](https://arxiv.org/abs/2603.11182)
@@ -136,7 +141,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 
 @@
 
-@@pubs *Anomalous Hall Crystal and its Phonons, Center for Computational Quantum Physics, Flatiron Institute, Dec 2025.
+@@pubs *Anomalous Hall Crystal and its Phonons*, Center for Computational Quantum Physics, Flatiron Institute, Dec 2025.
 
 @@
 
