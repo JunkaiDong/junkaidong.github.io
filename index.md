@@ -6,16 +6,16 @@
 ~~~
 <div class="row">
   <div class="container">
-    <img class="right" src="/assets/JD-Photo-25.7.jpg" style="max-width: 40%; padding: 0px 25px 0px 25px">
+    <img class="right" src="/assets/SSF_JD_resize.jpg" style="max-width: 40%; padding: 0px 25px 0px 25px">
     <p>
     <a href="http://arxiv.org/a/dong_j_3">arXiv</a> | <a href="https://scholar.google.com/citations?user&#61;pgN4BLIAAAAJ&amp;hl&#61;en">Google Scholar</a> | <a href="/assets/cv_JunkaiDong.pdf">CV</a>
     </p>
     <p>
-    email: junkaidong-at-g.harvard-dot-edu 
+    email: junkaidong.work-at-gmail-dot-com
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I am a physics PhD candidate at Harvard University. I am working with <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. I will be joining Stanford University in Fall 2026. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
+    <p>I obtained my PhD in Physics from Harvard University in May 2026, where I was supervised by <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. I will be joining Stanford University in Fall 2026. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
@@ -45,9 +45,9 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2507.20647)
 @@
 
-@@pubs T. Soejima, **J. Dong**, O. E. Sommer, D. E. Parker, and A. Vishwanath, Topological constraint on crystalline current.
+@@pubs T. Soejima, **J. Dong**, O. E. Sommer, D. E. Parker, and A. Vishwanath, Topological constraint on crystalline current. *Phys. Rev. Lett.* 136, 186601 (2026).
 
-[arXiv](https://arxiv.org/abs/2507.18611)
+[DOI](https://doi.org/10.1103/936c-vjn9) | [arXiv](https://arxiv.org/abs/2507.18611)
 @@
 
 @@pubs R. Fan, **J. Dong**, and A. Vishwanath, Simulating the non-unitary Yang-Lee conformal field theory on the fuzzy sphere.
@@ -60,7 +60,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [DOI](https://www.pnas.org/doi/10.1073/pnas.2515532122) | [arXiv](https://arxiv.org/abs/2503.16390)
 @@
 
-@@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, $\lambda$-Jellium Model for the Anomalous Hall Crystal. Phys. Rev. Lett. 135, 186505 (2025).
+@@pubs T. Soejima$^*$, **J. Dong**$^*$, A. Vishwanath, and D. E. Parker, $\lambda$-Jellium Model for the Anomalous Hall Crystal. *Phys. Rev. Lett.* 135, 186505 (2025).
 
 [DOI](https://doi.org/10.1103/x53d-12s6) | [arXiv](https://arxiv.org/abs/2503.12704)
 @@
@@ -105,7 +105,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [DOI](https://doi.org/10.1103/PhysRevResearch.5.023166) | [arXiv](https://arxiv.org/abs/2210.13477)
 @@
 
-@@pubs **J. Dong**, J. Wang, and L. Fu, Dirac Electron under Periodic Magnetic Field: Platform for Fractional Chern Insulator and Generalized Wigner Crystal, arXiv:2208.10516. 
+@@pubs **J. Dong**, J. Wang, and L. Fu, Dirac Electron under Periodic Magnetic Field: Platform for Fractional Chern Insulator and Generalized Wigner Crystal.
 
 [arXiv](https://arxiv.org/abs/2208.10516)
 @@
