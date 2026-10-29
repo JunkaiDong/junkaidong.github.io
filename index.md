@@ -15,7 +15,7 @@
     </p>
 
     <h3 id="about_me"><a href="#about_me" class="header-anchor">About Me</a></h3>
-    <p>I obtained my PhD in Physics from Harvard University in May 2026, where I was supervised by <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. I will be joining Stanford University in Fall 2026. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
+    <p>I am currently a Stanford Science Fellow. I obtained my PhD in Physics from Harvard University in May 2026, where I was supervised by <a href="https://scholar.harvard.edu/avishwanath">Prof. Ashvin Vishwanath</a> on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, birding, hiking, and reading.</p>
     <div style="clear: both"></div>      
   </div>
 </div>
@@ -25,7 +25,7 @@
 I am a physics graduate student at Harvard University. I am working with [Prof. Ashvin Vishwanath](https://scholar.harvard.edu/avishwanath) on strongly correlated physics. My interests lie in studying emergent phenomena in condensed matter systems analytically and numerically. In my spare time, I enjoy music, hiking, and reading. -->
 ### Publications
 
-@@pubs **J. Dong**$^*$, T. Soejima$^*$, D. E. Parker, and A. Vishwanath, Crystals Caught Doping: Metallic Wigner Crystals in Rhombohedral Graphene.
+@@pubs **J. Dong**$^*$, T. Soejima$^*$, D. E. Parker, and A. Vishwanath, Crystals Caught Doping: Metallic Wigner Crystals in Rhombohedral Graphene. (Accepted by *Phys. Rev. Lett.*)
 
 [arXiv](https://arxiv.org/abs/2604.00114)
 @@
@@ -40,7 +40,7 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 [arXiv](https://arxiv.org/abs/2512.07947)
 @@
 
-@@pubs M. Uzan, W. Zhi, M. Bocarsly, **J. Dong**, S. Dutta, N. Auerbach, N. S. Kander, M. Labendik, Y. Myasoedov, M. E. Huber, K. Watanabe, T. Taniguchi, D. E. Parker, and E. Zeldov, hBN alignment orientation controls moiré strength in rhombohedral graphene.
+@@pubs M. Uzan, W. Zhi, M. Bocarsly, **J. Dong**, S. Dutta, N. Auerbach, N. S. Kander, M. Labendik, Y. Myasoedov, M. E. Huber, K. Watanabe, T. Taniguchi, D. E. Parker, and E. Zeldov, hBN alignment orientation controls moiré strength in rhombohedral graphene. (Accepted by *Nat. Phys.*)
 
 [arXiv](https://arxiv.org/abs/2507.20647)
 @@
@@ -136,6 +136,10 @@ I am a physics graduate student at Harvard University. I am working with [Prof. 
 @@
 
 ### Talks
+
+@@pubs *Electron Crystallography in Rhombohedral Graphene*, Long Ju Group Meeting, MIT, May 2026.
+
+@@
 
 @@pubs *Anomalous Hall Crystal and its Phonons*, Kids Seminar, Harvard University, February 2026.
 
